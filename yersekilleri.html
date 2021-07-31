@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+.rsm{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.rsm2{
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#headerResim{
+    width: 100%;
+    height: 230px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+ul.cssMenu {
+  list-style-type: none;
+  background-color: #FFF5EE;
+  flex: auto;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: center;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+ul.cssMenu li {
+  cursor: pointer;
+  font:300 20px  sans-serif bold;
+  color:#483D8B;
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  position: relative;
+  border-bottom: 1px solid #white;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+ul.cssMenu li ul {
+  display: none;
+  padding:0;
+  cursor: pointer;
+} 
+
+ul.cssMenu li:hover ul {
+  display: table;
+  margin-top: 15px;
+  min-width: 250px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li:hover {
+  color:white;
+  cursor: pointer;
+  background-color: #FFF5EE;
+}
+ul.cssMenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul.cssMenu .dropdown-child {
+  display: none;
+  background-color: #FFF5EE;
+  min-width: 200px;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown-child a {
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown:hover .dropdown-child {
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main {
+    width:100%;
+  }
+}
+a {
+	font-style bold;
+	color: #CD5C5C;
+    text-decoration: none;
+}
+article {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-radius: .5em;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+}
+.content {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  background-color: #262626;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  font: sans-serif;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: justify;
+}
+section 2{
+  display: flex;
+  text-align: center;
+  font: sans-serif;
+}
+</style>
+ 
+<body style="font-family:Verdana;color:#aaaaaa;" contenteditable="false">
+<div style="background-color:black;padding:15px;text-align:center;border-radius: .5em;padding: .5em;box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);">
+<img id="headerResim"  src="header/header.jpg" alt="">    
+  <h1 style="color:#FFF5EE">YER ŞEKİLLERİ</h1>
+</div>
+<div id="container">
+    <ul class="cssMenu">
+    <center>
+       <li> <div class="dropdown">Sinop Şehri
+        <ul>
+		<div class="dropdown-child">
+		  <li><a href="tarihi.html" target="_blank">Tarihi</a></li>
+		  <li><a href="yersekilleri.html" target="_blank">Yer Şekilleri</a></li>
+          <li><a href="antikcag.html" target="_blank">Antikçağ</a></li>
+		  <li><a href="yoremutfagi.html" target="_blank">Yöre Mutfağı</a></li>
+		  <li><a href="diyojen.html" target="_blank">Diyojen</a></li>
+          <li><a href="ayancik.html" target="_blank">Ayancık</a></li>  
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="sinop.html">Anasayfa</a></li>
+      <li><div class="dropdown">Fotoğraflar
+        <ul>
+		<div class="dropdown-child">
+          <li><a href="ayancik1.html" target="_blank">Ayancık</a></li>
+          <li><a href="sinop1.html" target="_blank">Sinop</a></li>
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+    </center>
+  </ul> 
+    <article>
+      <div class="content">
+		<h2><center>Dağlar</center></h2>
+        <p>
+        <br>
+		Sinop İlinin en büyük dağları doğu-batı doğrultusunda Karadenize paralel bir şekilde uzanan İsfendiyar (Küre) dağlarıdır. Fazla yüksek olamayan bu dağ sırasının üzerinde yer yer yüksekliği 1500-1800 m. Arasında değişen tepeler, doruklar vardır.
+		<br>
+		<br>
+		İsfendiyar (Küre) dağları 3'üncü Jeolojik zamanın başlarında meydana gelen Alp-Himalaya kıvrım kuşağı üzerinde yer almasıdır. Bu dağların en önemli özelliği genç dağlar ve yüksek olmalarıdır. Eski dağlar kadar aşınmaya pek uğramamışlardır. Sinop İli sınırları fazla yüksek olmalarına karşılık iç bölgelerle kıyı kesimi arasında ulaşımda yıllarca zorluk ve güçlük çıkarmışlardır. İlimizin iç kısımlarla olan ilişkisinin, dağların sık ve devamlı olmasından gelişip büyüyemediğini görmekteyiz.
+		<br>
+		<br>                        
+		Küre dağları yörenin engebeli arazisini meydan getirir. Kuzeybatıda yükselen dağlar merkez sahillerine 9 km. yaklaşınca alçalır, kıyı ovalarını meydana getirir. Gerze sınırlarından itibaren tekrar yükselerek Bafra Ovasına ulaşır.
+		<br>
+		<br>
+		Dağlar il arazisinin % 74.3'nü kaplar. İl'deki en önemli dağ sırası Küre Dağları üzerindeki Zindan Dağı (1730 m) dır. Boyabat çöküntü alanının yanında yer alan Karaoluk Tepesi (1313 m) ve Kuzuluk Tepesi (1125 m) önemli yükseltilerdir. Kuzeye doğru gidildikçe, Sinop Yarımadasının güneyindeki; Sivrice Tepesi (1040 m) ve Dede Tepesi (1038 m.) göze çarpmaktadır.İl topraklarının en güney uçunda ise Alankaya Tepesi (946 m.) yer alır.
+		<br>
+		<br>
+		Karadeniz Bölgesinin Batı Karadeniz sistemine giren Küre Dağlarının doğudan batıya doğru önemli tepeleri; Sarıdökük Tepesi (1660 m), Çangal Dağı (1605 m.) ile Ayancık ilçesinde yer alan Zindan Dağı (17830 m)dır. Zindan Dağı aynı zamanda İl'in en yüksek noktasıdır. Küre Dağlarının üzerinde daha doğuda Göktepe (1375 m.), Durağan ilçesinin kuzeydoğusunda Soyuk Tepe (1455 m) ile Elmadağı (900 m.) yer almaktadır.
+		</p>
+		<center><img src="yersekilleri/16.jpg" alt="" class="rsm"></center>
+      </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Yaylalar</center></h2>
+        <p>
+		<br>
+		Fazla geniş olmayan bir kıyı kesiminin ardından yükselen dağların üst kısımlarında yer yer ormanlarla çevrili yaylaları görmekteyiz, çevre insanlarının değişik isim verdiği bu yaylalar yazın serin suları, iklimi ve yeşil ot örtülüleri ile hayvancılık yapılan yerlerdir. Sürüleri ile bu yaylalara çıkan insanların buralarda 3-4 ay kaldıklarını ve hayvan ürünleri yaptıkları ve geçimlerini bu yolla kazandıklarını biliyoruz. Son zamanlarda yayla turizm olarak da düşünülen bu yerlerin ekonomiye büyük katkısı olacağını düşünebiliriz. En önemli yaylalar Mehmetli, Aluç, Dariözü, Yaylacık, Sakızlı, Yassıalan, Düdekoğlu, Sucuoğlu, Çan, Altınyayla, Kocaoğlu.
+		<br>
+		</p>
+		<center><img src="yersekilleri/24.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Ovalar</center></h2>
+        <p>
+	    <br>
+		Dağlar arasında ve dağlarla sahil kesimi arasında kalan ovalar büyük düzlükler halinedir. En önemlileri Sinop ve Boyabat düzlükleridir. Boyabat ovasını Gökırmak, Arın, Gazidere, Asarcık düzlük ve ovaları vadileri meydana getirmiştir. Sinop Ovası ise, Erfelek, Aksaz, Sarıkum kıyı düzlüklerinden oluşmuştur. Gerze yöresinde Sarıyer-Kabalı Çayının meydana getirdiği Çakıroğlu Sarımsak Çayının meydana getirdiği Dereyeri, Kanlıçay boyunca uzanan vadi düzlükleri de kıyı ovalarına örnek gösterilebilir.
+		<br>
+		</p>
+		<center><img src="yersekilleri/17.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Vadiler</center></h2>
+        <p>
+		<br>                        
+		Boyabat-Durağan yöresindeki Kızılırmak vadisinin dışında büyük vadiler yoktur. Akarsuların kendi adını verdikleri bir çok küçük vadiler aynı zamanda bölgenin arazi yapısı karakterini özetlemektedir.
+		<br>
+		</p>
+		<center><img src="yersekilleri/9.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Deniz Kıyıları</center></h2>
+        <p>
+		<br>
+		Sinop, Karadeniz kıyılarının girintili ve çıkıntılı kıyılarıdır. Hopa'dan başlayan ve İstanbul boğazında sona eren Karadeniz kıyılarının hiçbir yerinde Sinop'taki kadar koy ve körfezlerle korunmuş limanlara rastlanmaz. Sinop kıyılarında Köşk, Kayser, Karakum, Selamet, Boztepe, Sinop, Feryat, Bozburun, İnce, Güllüsu, Usta adlarında bir çok önemli burunlar bulunmaktadır. İnce ve Boztepe burunları kendi adlarını taşıyan iki yarımadanın ucundadır. İnceburun aynı zamanda Anadolu'nun en kuzeyindeki uç noktasıdır. Burası bataklık, göl ve ovalıktır. Burada İnceburun Feneri yer alır.
+		<br>
+		Boztepe'ye halk sadece Ada der, üzerinde Sülük Gölü bulunmaktadır. Sinop ili bu yarımadanın kıstağındadır. Boztepe Burnunun ucunda fener ve sis düdüğü bulunmaktadır.
+		<br>
+		Koy ve körfezlere gelince bunlar burunlar kadar çok değildir. En önemlileri İçliman, Dışliman, Akliman ve Hamsilos körfez ve koylarıdır.
+		<br>
+		Limanlar : Gerze, Sinop iç ve dış limanları, Akliman, Sarıkum ve Ayancık limanlarıdır.
+		<br>
+		Sinop kıyılarında (Sarı Ada, Kara Ada, Tavşan Adası) üç tane de küçük adacık bulunmaktadır. Bu adalarda insan yoktur. Yerleşilmiş değildir.
+		<br>
+		Sinop kıyıları doğu kıyılarımıza oranla dik ve sarp değildir. Yalnız Ayancık kıyıları engebeli, inişli çıkılışlıdır. Dağlar burada kıyıya paralel uzanmakla beraber, doğudaki kadar denize yakın değildir.
+		<br>
+		</p>
+		<center><img src="yersekilleri/15.jpg" alt="" class="rsm2">
+		<img src="yersekilleri/22.jpg" alt="" class="rsm2"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Akarsular</center></h2>
+        <p>
+		<br>
+		Sinop İlindeki irili ufaklı akarsularından bazıları Karadeniz'e bazılarıda güney sınırından geçen kızılırmak nehrine bağlıdır. İlin en büyük akarsuyu Kastamonu topraklarından çıkan ve birçok kolları batıdan doğuya akarak Durağan'ın güneyinde Kızılırmak nehrine bağlanan Gökırmak'tır. Uzun bir vadi boyunda akan ırmak Taşköprü ve Boyabat Ovaları'nı sular. Bu ovalar sulu tarımın yapıldığı önemi tarım üretim alanlarıdır.
+		<br>
+		Karadeniz'e dökülen çaylar batıdan doğuya doğru Çatalzeytin, Ayancık Çayları, birçok kollar olarak denize dökülen Kırkgeçit ve Sarımsak Çayları Karasu ve Gebelit Çayları önemli akarsulardır. Ağız kısımlarında deltalar oluşturan ve vadi boyu ovaları oluşturan bu çaylar İlkbahar ve kışın su seviyeleri yüksek yazları ise su seviyeleri azalan hatta zaman zaman kuruyan akarsulardır. Ancak tüm olumsuz koşullara karşılık vadi tabanları boyunca sulu tarımın yapılmasına imkan vermeleri açısından önemli akarsulardır.<br>
+								<br>
+
+		Kızılırmak : İlin güneydoğu sınırlarını çizer. Yurdumuzun en uzun nehri olan Kızılırmak, büyük kollarından Gökırmak'ı Sinop'tan alır.
+								<br>
+
+		Tepeçay : Sinop'un Türkeli ile Kastamonu'nun Çatalzeytin ilçesi arasında sınır oluşturur. Denize döküldüğü yerde hayli geniştir. Akarsuyun taşıdığı alüvyonlarla oluşan deltası giderek büyümektedir.<br>
+
+		Ayardin Deresi : 1.000.m. Yükseltili Çatak geriş köyü yakınlarından doğar. Türkeli Ilçe Merkezinin hemen doğusunda denize dökülür. Uzunluğu 20 km. kadardır.
+								<br>
+
+		Ayancık Çayı : Küre dağlarından kaynaklanan çok sayıda küçük derenin birleşmesinden oluşur. Uzunluğu 90 km. kadardır. İlçe Merkezinden denize dökülür.
+								<br>
+
+		Karasu Çayı : Küre dağlarında gündüzlü ormanlarından doğar. Uzunluğu 80 km., Sinop'un 8 km. batısından denize dökülür.
+								<br>
+
+		Çakıroğlu Çayı : Dıranaz dağlarından doğar. Gerze - Sinop arasında Çakıroğlu yöresinde denize dökülür. Denize döküldüğü yerde bir delta oluşturur.
+								<br>
+
+		Kanlıdere : Uzunöz dağlarının eteklerinden doğar. Çok sayıda küçük kolu vardır. Çayağzı denilen yerde denize dökülür.
+								<br>
+		</p>
+		<center><img src="yersekilleri/23.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Göller</center></h2>
+        <p>
+		<br>
+		Sinop'ta sayıları az olmakla beraber küçük göller vardır. Bunlardan Sülük gölü, Sinop Yarımadası üzerindedir. Denizden 210 m. Yüksekliktedir. Sarıkum Gölü de deniz seviyesinde bir göldür. Aksaz Gölü yarı bataklık halindedir. Karagöl ise denize seviyesinin altında bir göldür. Ayrıca Taşmanlı göleti ve Bektaşağa göletleri de sulu tarıma imkan veren gölcüklerdir. Tüm bu göllerimiz balık üretimine elverişlidir. (Sülük gölü dışında)
+		<br>
+		</p>
+		<center><img src="yersekilleri/21.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Yer Altı Suları</center></h2>
+        <p>
+		<br>
+		Bölgenin tümünü kapsayan yer altı suları, etüdleri henüz yapılmamıştır. Ancak gerek D.S.İ. Teşkilatı ve köy hizmetleri tafından çeşitli yörelerde etüdler yapılmış ve zengin yer altı suları istifade edilir duruma gelmiştir. Gazidere, Kayaboğazı. Uluköy, Yaylacık yer altı suları kaptaca alınmış, Çeşmigir, Sarayönü, Gökçeağaç Sakızı, Cuma Köy beldelerinin etütleri yapılarak burada zengin sualtı kaynaklarının bulunduğu tesbit edilmiştir.
+		<br>
+		</p>
+		<center><img src="yersekilleri/25.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<section2> <center><br>Kaynak: <a href="http://www.sinop.gov.tr/cografya">http://www.sinop.gov.tr/cografya</a></center>
+	<br></section2>
+</div>
+</body>
+</html>

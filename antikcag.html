@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+.rsm{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#headerResim{
+    width: 100%;
+    height: 230px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+ul.cssMenu {
+  list-style-type: none;
+  background-color:#FFF5EE;
+  flex: auto;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: center;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+ul.cssMenu li {
+  cursor: pointer;
+  font:300 20px  sans-serif bold;
+  color:#483D8B;
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  position: relative;
+  border-bottom: 1px solid #white;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+ul.cssMenu li ul {
+  display: none;
+  padding:0;
+  cursor: pointer;
+} 
+
+ul.cssMenu li:hover ul {
+  display: table;
+  margin-top: 15px;
+  min-width: 250px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li:hover {
+  color:white;
+  cursor: pointer;
+  background-color: #FFF5EE;
+}
+ul.cssMenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul.cssMenu .dropdown-child {
+  display: none;
+  background-color: #FFF5EE;
+  min-width: 200px;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown-child a {
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown:hover .dropdown-child {
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main {
+    width:100%;
+  }
+}
+a {
+	font-style bold;
+	color: #CD5C5C;
+    text-decoration: none;
+}
+article {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-radius: .5em;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+}
+.content {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  background-color: #262626;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  font: sans-serif;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: justify;
+}
+section 2{
+  display: flex;
+  text-align: center;
+  font: sans-serif;
+}
+</style>
+ 
+<body style="font-family:Verdana;color:#aaaaaa;" contenteditable="false">
+<div style="background-color:black;padding:15px;text-align:center;border-radius: .5em;padding: .5em;box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);">
+<img id="headerResim"  src="header/header.jpg" alt="">    
+  <h1 style="color:#FFF5EE">ANTİKÇAĞ</h1>
+</div>
+<div id="container">
+    <ul class="cssMenu">
+    <center>
+       <li> <div class="dropdown">Sinop Şehri
+        <ul>
+		<div class="dropdown-child">
+		  <li><a href="tarihi.html" target="_blank">Tarihi</a></li>
+		  <li><a href="yersekilleri.html" target="_blank">Yer Şekilleri</a></li>
+          <li><a href="antikcag.html" target="_blank">Antikçağ</a></li>
+		  <li><a href="yoremutfagi.html" target="_blank">Yöre Mutfağı</a></li>
+		  <li><a href="diyojen.html" target="_blank">Diyojen</a></li>
+          <li><a href="ayancik.html" target="_blank">Ayancık</a></li>  
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="sinop.html">Anasayfa</a></li>
+      <li><div class="dropdown">Fotoğraflar
+        <ul>
+		<div class="dropdown-child">
+          <li><a href="ayancik1.html" target="_blank">Ayancık</a></li>
+          <li><a href="sinop1.html" target="_blank">Sinop</a></li>
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+    </center>
+  </ul> 
+    <article>
+      <div class="content">
+	    <h2><center>Antikçağ'da Sinop</center></h2>
+        <p>
+		<br>
+		Sinop Adı, Antikçağ'da Paphlagonia olarak adlandırılan bölgenin kuzey ucunda Sinop'un saptanabilen en eski adı "Sinope" dir. Bu kelimedeki "Sin" kökü ile Asur-Anadolu ilişkisi, Sinope ile de Yunan ırmak tanrısı Asopos 'un su perisi kızlarından Sinope kastedilmiştir ki bu da ismin kökenini İyonya'nın bölgedeki kolonizasyonuna bağlamaktadır.
+		<br>
+		Bir başka fikir de Amazon Kraliçesi Sinova 'dır ki bu mitin de nereden geldiği belli değildir. Yalnız bu kavmin Anadolulu olduğu inancı vardır. Grek etimolojisine yabancı olan Sin ya da Sind sözcüklerine Yunanistan'ın dışında, Pontus, Doğu Anadolu, İran ve Hindistan 'da rastlanmaktadır. Bu da Sinope adının yerli Anadolu dillerinden gelmiş olabileceğini göstermektedir. Strabon ise kentin kurucusu olarak Arganotlar'dan Teselya'lı Otolikos 'u göstermekte ve onun kenti ele geçirerek bir Yunan kolonisi kurduğunu yazmaktadır. Kentin ele geçirilmesi, kolonileştirmeden önce kentte yerli bir halkın yaşadığını ortaya koymaktadır.
+		<br>
+		Sinop'un tarih öncesi hakkında ilk bilgiler, 1951-1954 yılları arasında, şehir merkezine 14 Km. mesafede yer alan Demirciköy Kocagözhöyük 'te, Türk Tarih Kurumu adına Ekrem AKURGAL, Afif ERZEN ve Münster Üniversitesinden Ludwıg Budde tarafından yürütülen kazılarda ele geçen arkeolojik malzemelere dayanmaktadır. 1980 'li yılların sonuna kadar Sinop 'un tarih öncesi denildiğinde ilk akla gelen ilk Tunç Çağdan malzeme veren Demirciköy Kocagözhöyük olup bununla sınırlı kalmaktaydı. Ancak Müze Müdürlüğü 'nün 1987 yılında başlattığı ve 1988-1989 ve 1990 yıllarında da devam eden yüzey araştırmaları Sinop 'un tarih öncesi bilinmeyen yönlerini önemli ölçüde aydınlatmıştır. Anadolu 'nun en kuzey noktası olarak bilinen İnce Burun 'daki fenerin batı kesimlerinde kıyını hemen yamaçlarında ele geçen, kesici, yan kazıyıcı, omurgalı kazıyıcı ve yonga parçaları diye adlandırılan taş aletler Üst Paleolitik çağa (M.Ö. 30.000-10.000) tarihlenmektedir. Müze Müdürlüğünce yürütülen yüzey araştırmasında 44 adet höyük tespit edilmiştir.
+		<br>
+		Bu höyüklerde ele geçen malzeme incelendiğinde, özellikle sahil şeridine yakın nehir ağızlarında ve nehir vadileri boyunca Kalkolitik Çağ 'dan (M.Ö. 5.500-3200) itibaren yerleşildiğini ve Tunç Çağı boyunca (M.Ö. 3200-1200) yoğun iskana tabi oldukları görülmektedir.
+		<br>
+		Sinop Bölgesi yüzey araştırmasında ele geçen buluntular genel olarak Erken Kalkolitik Çağ 'dan Geç Frig Dönemine kadar tarihlendirilmektedir. Ancak yüzey buluntularına göre tam tarihi süreklilik sağlanamamaktadır. En büyük boşluk Orta Tunç Çağı ile Geç Frig Çağı arasındadır. Araştırma öncesine kadar bilinmeyen Orta Tunç dönemine ait buluntular Gerze Köşk Höyük, Tıngıroğlu Höyük, Emiryayla Maltepe Höyük, Sarımsak Maltepe Höyük, Yaykın Karakumru Tepe 'de ele geçmiştir. Ancak bölgede Hitit İmparatorluk Çağı 'na ait tarihlendirilebilecek hiçbir buluntuya rastlanamamıştır. Samsun sahil bölgesinde de Hitit İmparatorluk dönemi malzemesine rastlanamamıştır.
+		<br>
+		Yapılan yüzey araştırması, bölgede M.Ö. XVIII. Yüzyıl ile M.Ö. VIII. Yüzyıl arasında yerleşim izine rastlanmadığını bu dönemin Sinop için karanlık bir dönem olduğunu ortaya koymuştur. Hitit metinlerinde adı geçen GAŞKA kavimlerinin bölgede yaşayıp yaşamadıklarını gösteren arkeolojik bir bölge henüz saptanabilmiş değildir. Araştırmanın ortaya koyduğu bir gerçekte Sinop 'da İlk Tunç yerleşimlerinin büyük bir yangın sonucunda terkedildiği ve bu dönemden itibaren M.Ö. 8. Yüzyıla kadar karanlık bir dönemin başladığıdır.
+		<br>
+		İ.Ö. VIII. Yüzyılda bölge Miletos başta olmak üzere İonia 'lıların kolonizasyonuna sahne olmuştur. Bu kolonizasyonun sadece Ege dünyasında artan nüfusu dağıtıp toprak kazanmak olmadığını öncelikle ticari ve ekonomik köşebaşlarının elde tutulmasının hedeflendiği anlaşılır. Özellikle Sinop 'taki İon kolonizasyonu, Fırat Vadisi ve Mezopotamya 'ya giden tarihsel yolların başlangıç noktasını tutmak için yapılmıştır. Söz konusu kolonizasyon için ileri sürülen iki ayrı başlangıç tarihinin aydınlatılması da ayrı bir problemdir. Bunlar İ.Ö. 756 ve 636 yıllarıdır. Bu iki tarih arasında çapı belirsiz kalan bir Kimmer istilası vardır. 756'da Trapezus, Kerasus ve Kotyora gibi kolonilerin Sinop'a bağlı olarak kuruldukları düşünülürse, bu tarihten önce Sinop'da bir İon kolonizasyonunun açıkça başladığını kabul etmek gerekir.
+		<br>
+		Sinop ve civarına yayılan bu Lidya-Kimmer hakimiyetinden sonra Sinop için kesinleşen en önemli olay, 630 yıllarında yapılan ikinci kolonizasyondur. 630 tarihi ile Lidya devletinin Pers kralı Kyrus tarafından 546'da yıkılmasına kadar süren dönem Sinop için yine karanlık kalmaktadır. Perslerin kıyı şehirlerini nasıl idare ettikleri kesin olarak bilinmese de otonom yapılarını korudukları sanılan bu şehirler, Perslerin atadıkları Tiranlar sayesinde imparatorluğa vergi ödüyor olmalılar. İmparator I. Darieios 'un örgütlenme sistemine göre Sinop bu dönemde Kapadokya satraplığı sınırları içinde daha sonraki bir düzenleme ile de Pontus Kapadokyası denilen kuzey Kapadokya sınırları içinde sayıldı. V. Yüzyıl içlerinde Persler ve güçlü Perikles Atina'sı arasında çekişme konusu olan kıyı kolonileri ile Sinop'da sonunda Perikles yönetimine bağlandı. Bu dönemde parlak ve sikke çeşitliliğinden demokratik bir Grek yönetimine kavuştuğu anlaşılan kent, bu durumunu Euxene'nin Grek şehirlerini Perslere bırakan Antalcidas anlaşmasına kadar korumuştur.
+		<br>
+		İ.Ö. 350 yılından sonra Kapadokya satrabı olarak tüm Anadolu'yu Persler'den koparmak isteyen ve bir Kapadokya krallığı yaratmayı amaçlayan Datames, Sinop üzerine de yürümüştür.
+		<br>
+		Makedonya kralı İskender'in Persleri 334 ve 332 de yenmesinden sonra özgürlüğünü kazanacağını uman Sinope, İskender'in bürokrasisinin sert yönetimi altında ezilmiş ve Pers sarayına elçi heyeti göndermiştir. Ancak karşılarına Daarieios yerine İskender çıkmıştır. 5. Teminata bağlı ve güç elde edilen bir serbestlikten sonra Sinope Diadok'ların idaresinde demokratik yapısını sürdürmüştür. Bu dönemde Eumenes'in denetimine giren ve bir otorite boşluğuna düşen yöre, Perslerin eski Kiostiranın torunu Mithridates'in başlattığı Pontus Krallığı döneminde başlıbaşına bir parlak çağın merkezi oldu.
+		<br>
+		Hellenleşmiş bir Pers kültürü karakterini taşıyan Pontus krallığının geleneği Anadolu hegemonyasını güçlenen Roma karşısında kendine bağlamak amacını taşıyordu.
+		<br>
+		183 yılında ani bir baskınla Sinope'yi elde eden Pharnakes, kente bağlı kolonilerden Cerasus yakınlarında Pharnace adlı yeni bir Pont kolonisi de kurmuştur. Daha sonra devletin güvenliğini sağlamak için IV. Mithridates merkezi Amasya'dan Sinope'ye nakletmiştir. Tarihe Mithridates Eupator olarak geçen ve "Büyük" ünvanıyla anılan Pontus krallığının son yöneticisi, döneminde başkent Sinope, tarihte en yüksek ve ihtişamlı çağını yaşamıştır. Sinope'de doğan ve şehrin çifte limanını genişleten, surlarla çeviren, stao, agora, gymnasium ve muhteşem bir sarayla şehri donatan Mithridates'in kişiliği, Sinop ve Anadolu Hellenizminin bir sembolü olmuştur.
+		<br>
+		Pontus hakimiyetinin Roma egemenliği tarafından yıkılmasından sonra Roma'lı kumandan Pompeius'tan itibaren Bithinia ve Pontus eyaletine bağlanan Sinope-Lex Pompeia da belirtildiği gibi birçok eşitlikler kazandı. Bu dönemde kentin ayrı bir tarihinden bahsedilemez. Sinop artık Roma tarihinin içinde anılır. Roma İmparatoru Trajan döneminde Bithinia ve Pontus eyaletinin Senato'dan alınıp İmparatorun yetki alanına bağlanması, Sinop'un sosyal gelişimine yeni ufuklar açmış ve şehre aynı imparatorun ismiyle anılan bir su kemeri yapılmıştır. İ.S. 395 yılında Roma İmparatorluğu'nun ikiye ayrılmasıyla Doğu Roma İdaresine geçen Sinope, Bizans döneminde de giderek azalan bir önemle bölgenin ticari, kültürel ve askeri merkezi olmaya devam etti.
+		</p>
+		<center><img src="antikcag/13.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<section2> <center><br>Kaynak: <a href="http://www.sinop.gov.tr/tarih">http://www.sinop.gov.tr/tarih</a></center>
+	<br></section2>
+</div>
+</body>
+</html>
+

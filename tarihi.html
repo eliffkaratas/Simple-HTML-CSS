@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+.rsm{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#headerResim{
+    width: 100%;
+    height: 230px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+ul.cssMenu {
+  list-style-type: none;
+  background-color: #FFF5EE;
+  flex: auto;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: center;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+ul.cssMenu li {
+  cursor: pointer;
+  font:300 20px  sans-serif bold;
+  color:#483D8B;
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  position: relative;
+  border-bottom: 1px solid #white;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+ul.cssMenu li ul {
+  display: none;
+  padding:0;
+  cursor: pointer;
+} 
+ul.cssMenu li:hover ul {
+  display: table;
+  margin-top: 15px;
+  min-width: 250px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+ul.cssMenu li:hover ul li {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+ul.cssMenu li:hover ul li:hover {
+  color:white;
+  cursor: pointer;
+  background-color: #FFF5EE;
+}
+ul.cssMenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul.cssMenu .dropdown-child {
+  display: none;
+  background-color: #FFF5EE;
+  min-width: 200px;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown-child a {
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown:hover .dropdown-child {
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main {
+    width:100%;
+  }
+}
+a {
+	font-style bold;
+	color: #CD5C5C;
+    text-decoration: none;
+}
+article {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-radius: .5em;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+}
+.content {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  background-color: #262626;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  font: sans-serif;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: justify;
+}
+section 2{
+  display: flex;
+  text-align: center;
+  font: sans-serif;
+}
+</style>
+ 
+<body style="font-family:Verdana;color:#aaaaaa;" contenteditable="false">
+<div style="background-color:black;padding:15px;text-align:center;border-radius: .5em;padding: .5em;box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);">
+<img id="headerResim"  src="header/header.jpg" alt="">    
+  <h1 style="color:#FFF5EE">TARİHİ</h1>
+</div>
+<div id="container">
+    <ul class="cssMenu">
+    <center>
+       <li> <div class="dropdown">Sinop Şehri
+        <ul>
+		<div class="dropdown-child">
+		  <li><a href="tarihi.html" target="_blank">Tarihi</a></li>
+		  <li><a href="yersekilleri.html" target="_blank">Yer Şekilleri</a></li>
+          <li><a href="antikcag.html" target="_blank">Antikçağ</a></li>
+		  <li><a href="yoremutfagi.html" target="_blank">Yöre Mutfağı</a></li>
+		  <li><a href="diyojen.html" target="_blank">Diyojen</a></li>
+          <li><a href="ayancik.html" target="_blank">Ayancık</a></li>  
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="sinop.html">Anasayfa</a></li>
+      <li><div class="dropdown">Fotoğraflar
+        <ul>
+		<div class="dropdown-child">
+          <li><a href="ayancik1.html" target="_blank">Ayancık</a></li>
+          <li><a href="sinop1.html" target="_blank">Sinop</a></li>
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+    </center>
+  </ul> 
+    <article>
+      <div class="content">
+		<h2><center>Milli Mücadele Dönemi Sinop</center></h2>
+        <p>
+          Ülkemizin dört bir taraftan işgali ve azınlıkların zararlı çalışmalarından Sinop da nasibini almıştır. Samsun merkezi ayrılıkçı Rum Müdafaa-i Meşrufa Cemiyeti'nin Sinop'ta bir şubesi vardı. Bağımsız bir Rum Pontus Devleti kurmayı amaçlayan ayrılıkçı çeteler, zaman zaman Sinop yörelerine de sarkıyor, Müslüman köyleri basıyor halkı yıldırmaya çalışıyordu. Üçüncü Ordu Müfettişliği'ne ve Anadolu'da Milli Mücadeleyi başlatma görevine atanan Mustafa Kemal, 18 Mayıs 1919 günü Sinop Limanı'na uğramış, Sinop Askerlik Şubesi Başkanı'nı gemiye çağırıp, gerekli emirleri vermiş ve kara yolunun uygun olmadığını öğrenip, hiç gemiden inmeden, Samsun'a hareket etmiştir.
+        </p>
+        <p>
+          Eylül 1919'da şehirdeki küçük İngiliz birliği, Sinop Mutasarrıfı Mutasarrıfı Mazhar Tevfik Bey'i tutuklamak ve Hükümet Konağı'na İngiliz Bayrağı asmak istemişlerse de, halkın sert tepkisi üzerine bundan vazgeçmek zorunda kalmışlardır.
+        </p>
+        <p>
+          Sinop ve yöresindeki Milli Cemiyetler'in (Müdafaa-i Hukuk) örgütlenmesi Mazhar Tevfik Bey'in yeniden güç kazanmasından sonra hızla gelişti. Sivas Kongresi'nde alınan karar uygulanınca, Sinop ve nahiyelerinde Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'nin bir çok şubesi açıldı. Meclis-i Mebusanda da Sinop'u Rıza Nur Bey ve Miralay Zeki Bey temsil etmişlerdir.
+        </p>
+		<p>Sinop İstiklal Savaşı'na da bütün gücüyle katılmıştır. Sinop sancağının Ayancık-Boyabat ve merkez ilçeleri İstiklal Harbinde en çok şehit veren bölgelerden kabul edilir ve bu yüzden askeri belgelerde bu savaş takdirle anılır.</p>
+		<p>23 Nisan 1920'de toplanan Birinci dönem T.B.M.M.'ne Sinop adına şu Millet vekilleri seçilmiştir: Şerif (Arkan) Bey, Abdullah (Karabina) Bey, Hakkı Hami (Ulukan) Bey, Rıza Namık (Uras) Bey, Şevket (Peker) Bey, İstanbul Meclis-i Mebusanı'nda Sinop Mebusu olan Rıza Nur Bey'de, Meclis-i Mebusan'ın kapatılmasından sonra Ankara'ya gelerek Büyük Millet Meclisi'nin çalışmalarına katıldı. Meclisin ilk geçici başkanlığını da en yaşlı üye sıfatıyla Sinop Mebusu Şerif Bey yürütmüştür.</p>
+		<p>Kurtuluş Savaşı yıllarında "21 Eylül 1923" Sinop matbaasında basılan resmi tebliğin aslı ve tercümesi
+			(Basri Özgen' in özel arşivinden alınmıştır)</p>
+		<center><img src="tarihi/1.jpg" alt="" class="rsm"></center>
+      </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Sinop Şehrinin Başında Dönenler</center></h2>
+        <p style="font-style: italic;">
+          Fikirler, cebir ve şiddetle top ve tüfekle asla öldürülemez.</p>
+		<p style="font-style: italic;">Mustafa KEMAL</p>
+		<br>
+		4 Ağustos 1919 günü Samsun'dan gelip İstanbul'a giden yolcu vapurundan bir Türk polis memuriy1e bir adam çıktı. Polis, bu adamın muhafızıydı. Yanındaki adamı alıp Sinop hükümet konağına götürdü. Mutasarrıf dairesinde oturmuş, kimi evrakları gözden geçiriyor, bir yandan da Karadenizin koyu mavi yaz suyu üzerinde gözlerini gezdirerek serinlemeğe çalışıyordu. Gözleri, hem ferahlamak istiyor hem de denizi kendi gölleri durumuna getiren düşman savaş gemilerinin külrengi silüetlerini araştırıyordu. Onlardan biri ya da birkaçı Sinop'a yakın sulardan geçerken her zaman yüreği hop ediyordu. Onun da Mustafa Kemal'in kocaman altın meşalesinden yaktığı küçük bir meşalesi vardı. Mustafa Kemal, karargah arkadaşları ile Bandırma vapurunda İstanbul'dan Samsun'a giderken Sinop'a yeni atanmış olan bu genç ve iyi yürekli Sinop mutasarrıfına da rastlamıştı. Mustafa Kemal, bu genç adamda bir Hürriyet ve itilafçı tipi bulmuş, İstanbul'dan Sinop'a dek üzerinde işleye-işleye onu ihtilalci aydınlardan biri olarak yetiştirmişti. İstanbul'dan bir hürriyet ve İtilaf partili olarak çıkan Mazhar Tevfik bey, Sinop'a bir Kuvayı milliyeci olarak ayak basmıştı. İşte, onun biraz böyle olduğu Sinop'ta bilindiğinden her gelen ve Sinop limanına demirleyen gemiden bir kötü haber bekliyordu. Onu daha çok ürküten gemiler, İstanbul'dan gelenlerdi. Bütün kötü haberlerin kaynağı orasıydı. Bütün taun mikropları, Anadolu'nun temiz ve saf havasına ordan yayılıyordu. Evet, sanki İstanbul' da mikrop fabrikaları vardı ve bunlar, durup dinlenmeden bir avuç toprağa sıkışıp kalmış olan birkaç milyon Türk'ü yok etmek için harıl harıl mikrop üretiyor ve bu umutsuz ülkenin içine salıyorlardı. Mazhar Tevfik beyle pek çok Sinoplu'yu hergün titreten kötü haberler birbiri arkasından gelip duruyor, millet, ölüm saatini bekleyen bir idam mahkumu gibi durmaksızın yaklaşan uğursuz ayak seslerini dinliyordu. Mustafa Kemal'in yeni çömezi Mazhar Tevfik bey, karaya ayak basan her yabancıyı hemen seçtiği gibi vapurdan inip hükümet dairesine doğru yürüyen resmi Türk Polisiyle yanındaki Orta yaşlı, aydın yüzlü adamı da görmüş, odasının kapısını çalmalarını bekliyordu. En sonra kapı çalındı, ilk önce polis, sonra. yanındaki adam, içeri girdi. Mazhar Tevfik bey, zayıf yüzünün ortasındaki zeki gözleriyle her ikisini de süzdü. Polis, ilerleyerek elindeki evrakı genç mutasarrıfa uzattı. O evrakı incelemeğe başlamadan polisin getirdiği adam, mutasarrıfın bürosunun önüne dek geldi ve hikayesini kısaca şöyle anlattı:
+		 <br>
+		- Mutasarrıf beyefendi, ben eski Samsun mebusu Osman'ım! Samsun Rum metropolitinin isteği ile İngilizler beni yakaladılar ve Malta zından1arına göndermek üzere yola çıkardılar. Hamiyet ve milliyet namına beni himaye ediniz ve beni Malta'ya göndertmeyiniz. Bu, sizin elinizdedir, mutasarrıf beyefendi.
+		Mazhar Tevfik, buna çok üzüldü. Hemen Osman beyle polise oturmaları için yer gösterdi .Adam salarak Belediye başkanı Rasim, Hürriyet ve İtilaf partisi başkanı Akif, Ticaret Odası Başkanı Şükrü, askerlik Şubesi Başkanı Binbaşı Şevket beyleri çağırttı. Hepsi gelip oturduktan sonra Osman beyi onlarla tanıştırdı ve üzücü hikayesini anlattı Ayrı-ayrı hepsine danıştı:
+		 <br>
+		- Sizin vereceğiniz karara bağlı bu, dedi. Osman beyi İngilizlere vermemek ve vapura göndermemek sizin hamiyet, milliyet ve insanlığınıza bağlı. Aydın bir Türk çocuğunu göz göre arslanın ağzına mı atacağız? Yarın, bunun hepimizin başına gelmeyeceğini kim söyleyebilir?
+		 <br>
+		Genç mutasarrıfın odasında toplanan bu iyi yürekli insanlar eski Samsun mebusunu geri vermemek için direnmeğe karar verdiler. Nedir ki İngilizleri kızdırmamak için de bunu bir "hilei şeriyeye" bağlamak gerektiğinde karar kıldılar. Güzel bir dek gelişle o günlerde sağlık kurumlarını denetlemek için Kastamonu Sağlık Müdürü Ferruh Niyazi Sinop'ta bulunuyordu. Şer'i bir hileyle yolu arayan bu iyi insanlar, Ferruh Niyazi beyin de düşüncesini sordular:
+		 <br>
+		- Osman beyin bu tehlikeyi atlatması için bir tek çare vardır, o da doktor raporudur! Bunun için de hükümet tabibi Kenan beyden "dört başı mamur" bir rapor alıp bana getirirseniz, ben de İmzaladıktan sonra hükümete verirsiniz!
+		Dedi. Osman bey, bunun üzerine hükumet doktorundan güzel bir rapor aldı ve rapor Sağlık Müdürünce imzalanarak mutasarrıf Mazhar Tevfik beyin masasının üzerine geldi. Mazhar Tevfik bey, Osman beyin vapurla İstanbul'a gidemeyeceğini, gittiğinde diriminin tehlikeye gireceğini, bu rapora dayanarak bildirdi. Görevli polis, bu evrakı alıp Osman beyi Sinop'ta bırakarak Samsun'a döndü.
+		 <br>
+		Mazhar Tevfik bey, bu olayı Mustafa Kemal paşa ile birlikte Dahiliye Nezaretine ve Kastamonu Vali vekiline de bildirdi. Samsun mutasarrıfı Hamit beyden de durumu sordu. Nedir ki mutasarrıf orda yoktu. Onun için ordan bir ses çıkmadı. Dahiliye Nazırı Adil bey, gönderdiği şifrede anlam olarak şöyle diyordu:
+		- Bu gibi işlere kanşmayınız ve Osman beyi hemen mahfuzen İstanbul'a doğru yola çıkarınız.
+		 <br>
+		Kastamonu Vali Vekili de bu anlamda bir emir gönderdi. Sonradan Samsun hükümet konağına gelip
+		 <br>
+		Mazhar Tevfik beyin şifresini okuyan Samsun mutasarrıfı Hamit bey şöyle karşılık verdi:
+		- Vatanperverleri imhaya matuf bir harekettir. Benim Samsun'da bulunmayışımdan bilistifade yapılmıştır. Mümkün olan muavenet ve müzahereti esirgemeyiniz. Mustafa Kemal'den bir karşılık gelmeyişine genç mutasarrıf çok üzüldü.
+		 <br>
+		Iki gün sonra Dahiliye Nezareti müdürlerinden Münir bey, yanında Samsun İngiliz temsilcisi Rum asıllı yedek yüzbaşı Solter ve bir Ermeni tercüman olarak, Sinop hükümet konağının kapısından içeri girdi. O aralık genç mutasarrıf yerinde olmadığından tahrirat müdürleri odasına girip oturarak mektupçu Hüseyin Hilmi beyi çağırttılar.
+		 <br>
+		Bir İngiliz ganbotunun limana demir attığını gören Tevfik bey hemen bir tehlike sezin1eyerek sıvışmıştı. Ermeni Tercüman Yüzbaşı Solter'in ilk sorusunu Hüseyin Hilmi beye şöylece sordu:
+		- Osman bey nerede?
+		 <br>
+		Mazhar Tevfik bey, böyle bir sonuç beklediğinden mektupçu ile anlaşmış, ne biçim karşılık verileceğini kararlaştırmıştı. Direktifi yerine getirmekte hiç duraksamadı:
+		- Bilmiyorum ve tanımıyorum.
+		 <br>
+		Solter, çekilmiş şifrelerin müsveddelerini istedi. Mektupçu:
+		- Şifreler mutasarrıftadır; bende yoktur! Dedi. Yüzbaşı Solter adamakıllı kızdı:
+		- Şimdi çağırtınız mutasarrıfı! Diye bağırdı.
+		- Mutasarrıf, köylere teftişe çıkmıştı. Şimdi, hangi köyde olduğunu bilmiyorum.
+		 <br>
+		Yüzbaşı Solter, Mektupçuyu dışarı bırakmayarak polis komiseriyle karantina memuru Mustafa efendiyi çağırttı. Onlar da :
+		- Osman beyi bilmiyoruz. Görmedik!
+		 <br>
+		Deyince Solter, bu kez gerçekten öfkelendi. Bütün bu memurlardaki ağız birliğini sezmişti. '
+		Yeni gelenleri sorguya çekerken mektupçu, tahrirat kalemine açılan ufak pencereden arkadaşlarına çabucak fısıldadı:
+		 <br>
+		Osman beyi arıyorlar; haber verin iyi ki bunu fısıldamıştı. Osman bey, başında dönen büyük tehlikeden habersiz kahvede oturmuş, çay içiyordu. Haberi alanlardan biri hemen kahveye koştu, durumu anlattı. Bunun üzerine yanında oturan Hürriyet ve İtilaf partisi başkanı Akif bey, Osman beyi elinden yakaladığı gibi kendi evine götürdü.
+		 <br>
+		Mektupçu Hüseyin Hilmi beyle polis komiseri ve Karantina memuru hala yüzbaşının karşısında sorulan sorulara kaçamak karşılık vermeğe çalışırken bir Ermeni yurttaş koşarak soluk soluğa geldi:
+		 <br>
+		- Osman bey şimdi kahveden; kalkarak Hürriyet ve İtilaf Partisi Başkanı Akif beyin evine girdi. Kahvede de bir, gözcü bıraktılar!
+		 <br>
+		Dedi. Bu gammazlamayı küçük tahrirat kalemi penceresinden dinleyen arkadaşlardan biri, yine koşarak Akif beyin evine haber götürdü. Polisler, Ermeni muhbiri önlerine katarak Akif beyin evine gittiler. Her yanı aradılar. Kimseyi bulamadılar.
+		 <br>
+		Akif beyin ev halkı espiyonun hünerini işitince hemen Osman beye bir kara çarşaf giydirmişler ve onu kadın kılığında yandaki komşu eve aşırmışlardı.
+		 <br>
+		İngiliz yedek yüzbaşısı Solter, artık oyunu adamakıllı anlamıştı. Bu sık saflar arasından Osman beyi söküp alamayacağı belliydi. Elinde de zorlayıcı bir güç yoktu. Nedir ki yine de zarar yapabilecek durumdaydı. Münir bey ,işi çözümlemeğe kararlı, mektupçuyu alarak odadan çıktı:
+		 <br>
+		- Azizim, dedi, vaziyet çok fena; hepimizi tevkif etmek istiyorlar. Beni gizlice mutasarrıfla görüştür. İşi idare etmeğe çalışalım. Münir bey, İngilizleri alıp sonradan Rıza Nur Kitaplığı olan eski Rus konsoloshanesine götürdü. Hüseyin Hilmi bey, Mazhar Tevfik beyi saklandığı yerde telefonla buldu ve olup bitenleri olduğu gibi anlattı. Mutasarrıf, yine gizliden Münir beyle görüştü. Bir karara varmışlardı. Öğleden sonra bürosunda İngiliz1erle görüştü. Yüzbaşı Solter'in de başı derde girmişti. Bu kuvayı milliyecilerin elinden adam alınamayacağını anlamıştı. Mutasarrıf, Osman beyin hastalığı geçince onu göndereceğini bildiren bir kağıt İmzalayarak yüzbaşıya verdi. Ona bu da yeterdi. O da bu kağıtla daha üst kumandanlığa karşı kendini koruyacak bir kalkan ele geçirmişti. Kağıdı, Osman bey yerine, cebine indiren yüzbaşı Solter görevini yapmış ve sözünü geçirmiş olduğundan ak giynekli ve silahlı deniz askerlerinin önünden yürüyerek küI rengi dumanlar püsküren ve parmaklıklarına dayanmış meraklı deniz askerlerinin ve subaylarının başları dizilmiş küçük Ganbota bindi. Küçük savaş gemisi, kıçında büyük bir İngiliz bayrağı dalgalanarak Samsun'a doğru İlerlemeğe başladı.
+		 <br>
+		Mazhar Tevfik bey, bir kez daha Osman beyi kurtar dığı için seviniyordu. Pek iyi tanıdığı bu ganbotun limana demir attığını ve içinden bir manga silah-endazla bir İngiliz subayının çıktığını gören Mazhar Tevfik bey, hemen, görevi Mektupçuya bırakarak belli bir yere saklanmak için savuşmuştu. Ancak böylece onları savsaklayabilir, zaman kazanabilir, bir tedbir düşünebilirdi.
+		 <br>
+		Mazhar Tevfik bey ve arkadaşlarının sabırsızlık ve üzüntü ile bekledikIeri Mustafa Kemal'in şifresi en sonra 15 Ağustosta gelebilmişti. Şifre şu anlamdaydı:
+		 <br>
+		- Osman bey üstüne gönderdiğiniz uzun telgrafınız buraya tam dokuz günde gelebildi. Mutasarrıf Hamit beyin 8 Ağustos 1919 tarihli "cevabı" şifresi burada hiç çözümlenemedi. İsmail Hakkı beyin buna uygun davranışı üzerinde gereken işlem yapılmak üzere 3. Kolordu Kumandanı ile Samsun Mutasarrıfı Hamit beye Kazım paşa hazretlerine önemle yazılmıştır. Serüven gerçekten üzücüdür. Göstermiş olduğunuz milli yiğitlik ve sevgi şükrana değer. Osman beyin İstanbul'a gitmesi hiç doğru değildir. Kendileri benimle buluşmak üzere hemen Sivas'a yola çıkmalıdır. Biz de bir kaç güne dek oraya yollanacağız. 20. Kolordu Kumandanı Ali Fuat paşa hazretleriyle her zaman ilişki sürdürülmesi ve onun direktiflerine göre davranılması rica olunur. Mevkiinden düşmek, yurtseverler için hiç sözü edilecek bir şey değildir, Her ne zaman zorunluk karşısında kalınırsa milletin kucağı fedakar çocuklarına açıktır. Durumu, gecikmeden bildirmenizi diler, size başarılar dilerim. Bu telgrafı alıp a1madığınızı bildirmenizi rica ederim.
+		Mustafa Kemal
+		 <br>
+		Mustafa Kemal'den Sinop'a gelen bu telgraf, en başta Mutasarrıf Mazhar Tevfik olmak üzere eski Samsun mebusu Osman beyle bütün onu kurtarmağa çalışan yurtsever arkadaşları çok sevindirdi. Onun emrine uyarak hemen, Osman beyi Karadan Sivas'a göndermek üzere davrandılar. O ara Samsun'dan gelip İstanbula giderken Sinop limanına uğrayan Amasya vapuru, İngilizlere yeni bir oyun oynamak için genç mutasarrıf ve arkadaşlarına yeni bir düşünce verdi. Sözde Osman bey, Şükrü efendi adlı polis muhafıziyle bu va- pura binmiş olacak, bindiğini bildiren bir telgraf da hemen Dahiliye Nezaretine çekilecekli. Vapur İstanbul'a vardığında elbette içinden ne Osman bey, ne de muhafızı çıkacaktı. İşte, Amasya vapurunun kaptanı da onların Sinop'ta gemisine bindiklerine ve Zonguldak'ta karaya çıkıp bir daha geri dönmediklerine tanıklık edecekti.
+		 <br>
+		Kaptanla bu yolda anlaşan Mahzar Tevfik bey ve arkadaşları, sessizce Osman beyi yola çıkarmağa hazırlandılar .
+		 <br>
+		Tam gece yarısı, el-ayak çekilip te sokaklarda kedilerden, köpeklerden, bir de dost pazvantlardan başka kimse kalmayınca Osman beyle polis Şükrü efendi birer kiralık ata bindirilerek uğurlandılar. Bulutsuz, apak bir gökyüzünde yusyuvarlak bir ay, sık ağaçlıklar, bağlar, bahçeler arasındaki ince toprak yolları aydınlatıyor, Mustafa Kemal'in üzgün yolcusunu yüreklendiriyor ve hülyalandırıyordu. Onu yolcu eden Mazhar Tevfik bey, Binbaşı Şevket bey, Belediye başkanı Rasim bey, Hürriyet ve İltifak partisi başkanı Akif bey, Ticaret Odası Başkanı Şükrü bey, parmaksızzade İsmail bey ve Mektupçu Hüseyin Hi1mi bey, yeni hürriyet güneşi Mustafa Kemal'e doğru yola çıkan yolcunun elini sıkıp paşaya çok selam söylemesini de sabık verdikten sonra ev 1erine dağıldılar. Eski Samsun mebusu Osman bey, gitmiş, ardında gözleri Mustafa Kemal'e dönük ve birbirine yeni bir ideal için kenetlenmiş bir avuç yürek bırakmıştı.
+		 <br>
+		Mazhar Tevfik bey, ertesi sabah, İstanbul'a Samsun' daki İngiliz temsilciliğine, Ali Fuat Paşaya ve Mustafa Kemal'e yalan ve doğru dört şifre telledi ve ,bu kez giderken Sinop limanına uğrayan Amasya vapuru, İngilizlere yeni bir oyun oynamak için genç mutasarrıf ve arkadaşlarına yeni bir düşünce verdi. Sözde Osman bey, Şükrü efendi adlı polis muhafıziyle bu va- pura binmiş olacak, bindiğini bildiren bir telgraf da hemen
+		Dahiliye Nezaretine çekilecekli. Vapur İstanbul'a vardığında elbette içinden ne Osman bey, ne de muhafızı çıkacaktı. İşte, Amasya vapurunun kaptanı da onların Sinop'ta gemisine bindiklerine ve Zonguldak'ta karaya çıkıp bir daha geri dönmediklerine tanıklık edecekti.
+		 <br>
+		Kaptanla bu yolda anlaşan Mahzar Tevfik bey ve arkadaşları, sessizce Osman beyi yola çıkarmağa hazırlandılar .
+		 <br>
+		Tam gece yarısı, el-ayak çekilip te sokaklarda kedilerden, köpeklerden, bir de dost pazvantlardan başka kimse kalmayınca Osman beyle polis Şükrü efendi birer kiralık ata bindirilerek uğurlandılar. Bulutsuz, apak bir gökyüzünde yusyuvarlak bir ay, sık ağaçlıklar, bağlar, bahçeler arasındaki ince toprak yolları aydınlatıyor, Mustafa Kemal'in üzgün yolcusunu yüreklendiriyor ve hülyalandırıyordu.
+		Onu yolcu eden Mazhar Tevfik bey, Binbaşı Şevket
+		bey, Belediye başkanı Rasim bey, Hürriyet ve İltifak partisi başkanı Akif bey, Ticaret Odası Başkanı Şükrü bey, parmaksızzade İsmail bey ve Mektupçu Hüseyin Hi1mi bey, yeni hürriyet güneşi Mustafa Kemal'e doğru yola çıkan yolcunun elini sıkıp paşaya çok selam söylemesini de sabık verdikten sonra ev 1erine dağıldılar. Eski Samsun mebusu Osman bey, gitmiş, ardında gözleri Mustafa Kemal'e dönük ve birbirine yeni bir ideal için kenetlenmiş bir avuç yürek bırakmıştı.
+		 <br>
+		Mazhar Tevfik bey, ertesi sabah, İstanbul'a Samsun' daki İngiliz temsilciliğine, Ali Fuat Paşaya ve Mustafa Kemal'e yalan ve doğru dört şifre telledi ve ,bu kez gibi bir bomba patlayacağını serinkanlılıkla beklemeğe başladı.
+		 <br>
+		Mustafa Kemal'den 27 Ağustos tarihli bir şifre geldi. Mazhar Tevfik bey yurtseverce işinden dolayı kutluyor ve Sivasa genel kongreye üç Sinop delegesi göndermesini istiyordu.
+		 <br>
+		Üç gün sonra Ali Fuat paşadan gelen şifre daha uzundu ve genç mutasarrıf için övgülerle dolu olduğu gibi Kuvayı Milliyenin güçlenmekte olduğu ve daha da güçlenmesi
+		gerektiği üzerinde bilgiler veriyor, güzel şeyler söylüyordu.
+		 <br>
+		Henüz İstanbul'dan ve Samsun'dan beklenen olumsuz ve tehlikeli ses çıkmamıştı. Geciktiğine göre epeyce yüksek takatta bir patlayış olacağı anlaşılıyordu.
+		 <br>
+		7 Eylül 1919 günü Sinop limanına iki Amerikan savaş gemisi yanaştı. Gürültü ile demir attılar. Bunlardan birisinden iki İngiliz subayı ve üç silahlı denieri bir motora binerek karaya çıktılar. Bu subaylardan biri Samsun Ingiliz temsilcisi Rum Milli yedek yüzbaşısı Solter' di. Silahlı üç deniz askerinden birinin elinde katlanmış kocaman bir İngiliz bayrağı bulunuyordu. Yüzbaşı Solter, askerlerin başında doğruca eski Rus konsoloshanesine gitti. Askerlere, savaş sırasında yarısı sağlam kalan bayrak direğine İngiliz bayrağını çektirdi. İngiliz bayrağı, Karadenizden esen serin rüzgarla dalgalanmağa başladı. Mustafa Kemal, henüz Havza'dayken Amasya Saat Kulesine İngiliz bayrağı çeken ve halkın kendisini linç etmesinden korkup kaçan bu yüzbaşı, aylardan sonra, içindeki bir komplekse çıkış noktası arayarak Sinop'a da İngiliz bayrağı astırarak otorite kurmak istiyordu.
+		 <br>
+		Amerikan Savaş gemilerinden inen yalnız bunlar değildi. Ayrı bir motor karaya birkaç Amerikalı da çıkardı. bunlar albay Boer ile maiyetiydi. Solter'le adamları, Rus konsoloshanesine kapanıp kaldıkları halde Amerikalı deniz Albayı doğruca hükümet konağına gittiler ve bürosunda genç mutasarıfı ziyaret ettiler. Mazhar Tevfik bey, konuklarına kahve ve çay ikram etti. Oturup havadan-sudan konuştular. Konuklar kalkıp giderken Mazhar Tevfik beyi de gemileri ziyarete çağırdılar. Muta- sarrıfın içinden kötü kuşkular geçti. Böyle düzenbazlıkla yakalanmak, "belkisi" kafasından birçok kez geldi geçti. Yine de Amerikalıların bu kahpeliği yapmayacakları üzerinde bir kanı ,onu konukların yanı sıra savaş gemilerine sürükledi. Onlar da genç mutasarrıfa soğuk içecekler ikram ettiler, onu ağırlayarak yine motora bindirip kıyıya bıraktılar. Amerikan mandası propagandası İngiliz mandası propagandasının dolu dizgin yarış ettiği Türkiye'de yüzbaşı Solter elbette bu davranışlariyle okkanın altına gitmişti..
+		 <br>
+		İkindi üstü, Karadenizi yalayarak gelen tatlı bir poy raz, Amerikan savaş gemilerinde ça1mağa başlayan bandonun coşkun ve hoppa havalarını kıyıya sürüklemeğe başladı. Gemiler, kalkmak üzereydiler. Sinop halkı da deniz kıyısına dökülmüş, hem Amerikan savaş gemilerini seyrediyor, hem de mızıka dinliyordu. Mutasarrıf Mazhar Tevfik, Binbaşı Şevket, Belediye Başkanı Rasim, Hürriyet ve İtilaf Partisi Başkanı Akif bey de kayıkla limanda dolaşıyor ve bandonun çaldığı güzel havaları dinliyorlardı.
+		 <br>
+		Gemiler, demir alıp ağır-ağır suları yarmağa başladı. Sonra kayalığı dönüp gözden Irak oldular, arkadaşları ile, kayıktan iskeleye çıktığında mutasarrıfın eline bir zarf tutuşturdular. Mazhar Tevfik bey, zarfı büyük bir ilgiyle açtı, yer gibi okudu, bütün keyfi kaçtı. Gözleriyle ne yazdığını soran arkadaşlarına mektubun içindekileri özetledi :
+		 <br>
+		- Bugün gelen İngiliz mümessili yazıyor, dedi, "bizim geldiğimizi duymadınız mı? Niçin bizi gelip ziyaret etmediniz? Hep Amerikalıların peşinde dolaştınız. Şimdi, gel, beni ziyaret et" diye emir veriyor.
+		 <br>
+		İngiliz temsilcisi burda haksızdı. İlkin nezaket ziyaretini onun yapması gerekti. Bu protokolu bilerek çiğneven İngiliz subayının bir hadise çıkarmak istediği anlaşılıyordu. Bu, Rus konsolosluğuna hışımIa İngiliz bayrağını çekmesinden de belliydi. Mazhar Tevfik bey, temsilcinin mektubuna Fransızca birkaç satırIa karşılık verdi: "Hoşgeldiniz!" dedi. Ayrıca bir istekleri olup olmadığını da sordu.
+		 <br>
+		8 Eylül 1919 kurban bayramı sabahı Sinop şehri karıştı. Olay şöyle başladı: bütün sokaklarda alaca-bulaca entari ve giyneklerini giymiş çocuklar dolaşıyor, büyükler birbirlerini kutlamak için sokağa ilk adımlarını atıyorlardı. VarlıkIı evlerin önünde boğazlarından kan fışkıran koçlar yatıyor, yoksul evlerin insanları, bu koyunları belki kendilerine de bir parça düşer diye uzaktan yakından sabırsızIıkIa gözetIiyorlardı.
+		 <br>
+		Mutasarrıf evinde pijamasiyle oturmuş, sabah kahvesini içiyor, bir yandan da herkesten önce kutIamağa gelen muhasebeci İhsan beyle şurdan-burdan konuşuyordu. Bu ara dışarda bir gürültü oldu. Mazhar Tevfik bey, yerinden fırladı, zaten kuşku da idi. Nedir ki hiçbir şey düşünmeğe ve yapmağa vakit kalmadan yüzbaşı Solter yanındaki İngiliz teğmeni ve üç silahlı İngiliz askeriyle odaya daldı. Dışarda kapıyı bekleyen adamı bir kenara iterek palas-pandıras içeri dalmışlardı.
+		 <br>
+		Yüzbaşı Solter, süngü takmış olan askerleri kapıya dikti. Sonra, İhsan beye kim olduğunu sordu, karşılığını alınca onun çıkıp gitmesini emretti.. Muhasebeci çıkıp gittikten sonra Solter Mutasarrıfa:
+		 <br>
+		- Çabuk giyinip benimle geleceksiniz! Diye sert bir sesle ve amirce bağirdı.
+		 <br>
+		Mazhar Tevfik bey, İngilizle gitmenin nereye vara cağını anladığından bir kurnazIık düşündü:
+		- Peki, şimdi giyinip geleyim!
+		 <br>
+		Dedi. Oturma odasından yatak odasına geçen Mazhar Tevfik bey, pencereden dışarı atladı. Arka bahçeye ayak bastıktan sonra ağaçların arasında gözden uzaklaşmak kolaydı. Çitler üzerinden atladı, bahçeden bahçeye geçti. Epeyce ötede bahçeler içindeki Belediye Başkanı i Rasim beyin evinin tokmağını güm-güm öttürdü. Rasim bey, mutasarrıfı sabah-sabah böyle pijama ve terlikle görünce işi anladı. Hemen adam salarak küçük Kuvayı Milliye grupuna haber gönderdi.
+		 <br>
+		Yüzbaşı Solter, Mazhar Tevfik beyin bir türlü giyinip gelmediğini görünce bir kez daha aldatıldığını anladı. Bunun üzerine bütün evi aramağa başladı. Harem bölümünde mutasarrıfın eşinin bayramını kutlamağa gelen kadınlar süngülü ve tabancalı İngiliz asker ve subaylarının destursuz odaya daldığını görünce çığlığı basarak paniğe kapıldılar. Odada çarşaflariye oturan ve askerler içeri girince peçelerini de yüzlerine örten bu kadınlar karşısında Yüzbaşı Solter de şaşırdı. Daha önce bir evden mebus Osman beyin çarşafa sokularak kaçırıldığını işittiğinden şimdi karşısında peçelerini örterek korkudan tir-tir titreyen kadınlardan her birini bir mutasarrıf olarak düşünmenin gerektiğine inandı ve bu Müslüman kurnazlığını boşa çıkaracak zekaya sahip olduğunu İspatlamağa kalktı. Bütün kadınları kaldırıp karşısına dizdi ve birer-birer peçelerini açarak yüzlerini gözden geçirmeğe başladı. Hepsinin de kadın olduğunu görünce yenildiğini anladı. Bundan sonra bütün evi, deliğine-deşiğine varıncaya dek aramak emrini verdi.
+		 <br>
+		Yüzbaşı Solter, elleri boş dönmenin ve yenilmiş olmanın utancı içinde darmadağın ettiği evden ayrıldı ve doğruca hükümet konağına gitti. Kapalı cümle kapısını açtırdı. Odacının kapıyı açmasını beklemeyen Solter bu nu dipçikle kırdırarak mutasarrıfın odasına girdi. Odacıdan bir bayrak direği istedi. Odacı, bayrak direği yerine meydan süpürgesinin sopasını çıkararak getirdi. Solter'in emri üzerine İngiliz askerleri İngiliz bayrağını bu sopaya geçirdiler ve bunu pencereden dışarı sarkıttılar.
+		 <br>
+		Öbür yanda kuvayı milliye grupu çabucak Rasim beyin evinde hala sırtındaki pijamasiyle oturan Mutasarrıfın çevresinde toplandılar. İvedi bir karar vermek gerekiyordu. Tarihin bütün olumlu ve başarılı olayları çabuk verilmiş sağlam ve doğru kararların altında yatmaktaydı. Karar, şimşek gibi verilmişti. Alman Savaş bilgininin düşüncesini uyguladılar: en iyi savunma, saldırıydı. Millici grup hemen sokağa dökülmüş olan hemşeriler arasına karıştı, kalabalık bayram yerini. şöyle bir dolaştı. Her dekgeldikleri güvenilir hemşeriye şunu fısıldadılar:
+		- İngilizler hükümet konağını bastılar, hükümeti işgalleri altına aldılar. Penceresine İngiliz bandırası astılar. Mavzeri çiftesi olan alsın, hükümet konağının önünde toplansın. Halk, bunu kolayca anladı. Silahlı-silahsız, çoluk - çocuk koca bir kalabalık, hükumet konağını sarıverdi. Halkın tehdit edici bir durumda hükümet önünde toplandığını ve işin kıvama geldiğini anlayan Belediye başkanı Rasim bey, doğru yukarı çıktı. Mutasarrıfın koltuğuna kurularak uzun bacaklarını yeşil örtülü büyük masanın üzerine atmış olan yüzbaşının karşısına dikildi:
+		- Yüzbaşı Solter, dedi, şöyle pencereden dışarı bakınız, biraz. Halk heyecandadır. Onların öfkesinden korkulacağını sizler de bizim kadar bilirsiniz. ilk iş olarak hemen şu bandırayı kaldırmalarını askerlerinize emrediniz. Yüzbaşı Solter:
+		- Ben Mutasarrıfı aradım, bulamayınca da boş makamını işgal ettim, dedi, mademki aracılık ediyorsunuz, hemen söyleyiniz, mutasarrıf buraya gelsin, görüşelim.
+		 <br>
+		Mazhar Tevfik bey, Rasim beyle birlikte hükümet konağına yaklaştığında halkın korkutucu bir kalabalık halinde homurdandığını gördü. Onlar durumlariyle korkmamasını ona duyurdu. Mutasarrıfla B. Başkanı bu yiğit halk seli içinden geçerek hükümet konağına girdiler. Mazhar Tevfik bey odaya girdiğinde Yüzbaşı Solter'i kendi koltuğuna kurulmuş, bacaklarını da büronun iizerine uzattığını gördü. Solter, yüzünde kötü bir alay maskesi olarak o durumda sordu:
+		- Benden neden kaçıyorsunuz? Elbette, Osman beyin nerde olduğunu söylemernek için. Şimdi madem ki , geldiniz, söyleyin, bakayım, Osman bey nerde?
+		 <br>
+		Mazhar Tevfik bey, sert bir sesle:
+		- Siz, benim makamımı işgal etmişsiniz, bir de bana ordan soru soruyorsunuz. Bu durumda size hiçbir şey,söylememek hakkını muhafaza etmekteyim. Makamımdan kalkıp bir konuk gibi şurdaki iskemlelerden birine oturup benden insanca ve nezaketle bir şeyler saracak olursanız Size sorduklarınız üzerinde cevap verebilirim:
+		 <br>
+		Mutasarrıf, sert ve öfkeli sesiyle bunları söyledikten sonra sinirli adımlarla odadan çıktı gitti.
+		Mutasarrıfın hışımla çıkıp gitmesi Salter'i şaşırttı. Bu adam, deli miydi? Neyine güveniyordu, iki-üç jandarmasına ve polisine mi?
+		 <br>
+		Kalktı, bayrağın asıIdığı açık pencerenin önüne gitti, caddeyi şöyle bir gözden geçirdi. Orda öfkeli bir kalabalık dalgalanıyordu. Hepsinin gözü İngiliz bayrağının asılı bulunduğu penceredeydi. Garip şey, bu bir kuru kalabalık ta değildi. Ellerindeki mavzerlerin mekanizmalarını kurcalayan birçok sert yüzlü ve bakışlı kimse de orda dolaşıp duruyor ve pencereye bakıyordu. Demek iş gerçeğe binmişti. Blöf, ters bir sonuç vermişti, demek. Bu halk topluluğu yeltmiyormuş gibi ara sokaklardan çıkıp gelen takım takım insanlar da göze çarpıyordu. Solter de öbür İngilizler de papucun pahalı olduğunu anlamışlardı. İngiliz soğukkanlılığının bu tuzaktan kurtulmanın çaresini bulacağı belliydi. Solterin korkunç ve alaycı öfkesi dinmiş, yerine yüzüne soğukkanlı bir düşüncenin kurnaz1ığı yayılmıştı:
+		 <br>
+		- Belediye Başkanı gelsin, diyeceklerim var! Diye seslendi. Rasim bey, biraz sonra geldi:
+		- Ne istiyorsunuz? Diye sordu. Solter, dostça gülümsedi:
+		- Bugün kurban bayramınızın birinci günü olduğunu biliyorum, dedi, bu bayram şenliğine katılmak için biz de İngjliz bandırasını çektik, bunda heyecanlanacak ne var? Söyleyin, halk boşuna heyecana kapılmasın. Biz, zaten buraya av için gelmiştik. Sinop orman1arında yaban domuzu, geyik filan avlayacaktık. Nedir ki iş bu üzücü sonuca. geldi. İsterseniz hep beraber bir sürek avı yapalım, Belediye başkanı Rasim bey, bu uydurmaları sabırla dinledi ve sonra şunları söyledi:
+		- Bakınız, halk, gittikçe coşuyor, sonra başınıza bir şey gelirse kabahat benden gitti. Ava filan gitmesi sonra düşünülür. Evvela şu bandırayı kaldırın!
+		 <br>
+		Rasim bey, bunları öyle büyük bir saflık ve inandırıcılıkla söylemişti ki Solter ve arkadaşları tam bir tehlikenin içine düştükleri duygusuna kapıldılar. Solter, askerlerden birine emir vererek bayrağı içeri aldırdı. Sonra, yüzbaşı, Rasim beyin koluna girdi. Kendileri önden öbür ; İngilizler arkadan dışarı çıktılar ve halkın arasından ilerlemeğe başladılar. Halk, durumu hemen kavramıştı. Bütün yüzlerde sessizce kazanılmış bir zafer sevinciyle bir küçümseme ve alayın izleri açıkca göze çarpıyordu. Yüzbaşı, Solter, canının kurtarmak için Belediye Başkanını kalkan gibi kullanmak zorunda kalmıştı. Rasim bey, konuklarını doğruca Belediye dairesine götürdü. Orada onlara bayram şekeri ve kahve ikram etti. Ayranı kabaran halk caddeyi boşaltıp bayram şenliklerine dönünce yüzbaşı Solter ve arkadaşları, konuk edildik leri Rus Konsolosluğuna döndüler. Yüzbaşı Solter, ikidir Türk halkının saldırısına uğramıştı. Biri Amasya'da saat kulesine İngiliz bayrağı çektiği gün, bir de şimdi. Demek ki Türkler, yabancı bayraklara kendi kutsal saydıkları topraklarında dayanamıyorlardı. Bilmiyoruz, ama, genç yüzbaşı, bundan sonra belki de bu her yere bayrak asmak manisinden temelli vazgeçmişti. Çünkü, hiçbir bibliyografyada Solter'in üçüncü bir bayrak olayına dek gelemedik.
+		 <br>
+		Mazhar Tevfik bey, bu olayı inceden inceye anlatan bir rapor yazarak birini Mustafa Kemal'e öbürlerini de İstanbul'da Damat Ferit paşa ile İngiliz siyasal temsilcisi olan Amiral'e gönderdi.
+		 <br>
+		Nedir ki olay bitmemişti. Çorap söküğü gibi uzamak eğilimi gösteriyordu. Mutasarrıf, aynı raporun bir örneğini de Kastamonu vilayetine göndermişti. 8 Eylül 1919 günü giden telgrafa geceleyin karşılık ge1mekte gecikmedi. Kastamonu' da Vali vekili bulunan Jandarma Kumandanı Osman Nuri bey makina başında genç mutasarrıfa kısaca şunIarı salık veriyordu:
+		 <br>
+		- Şimdi İstanbul'dan aldığım emir şudur: Hemen İngilizlerin oturdukları yere giderek kendilerine tarziye vereceksiniz. Mutasarrıf ona şöyle karşılık verdi:
+		- Yaptıkları hakaret karşısında asıl İngilizler gelip bana tarziye vermelidir. Sizin bu tebligatınıza uymakta mazurum.
+		 <br>
+		O zaman, kararlı olan Vali Vekilinden şu emir geldi.
+		- Size muvakkaten işten el çektirdiğimi bildirmek zorundayım. Mutasarrıf vekaletini hemen Binbaşı Şevket beyin almasını ve onun gidip yüzbaşı Solter'e tarziye vermesini kendisine bildiriniz.
+		 <br>
+		Mazhar Tevfik bey, haber salarak Binbaşı. Şevket beyi de makina başına çağırttı. Vali Vekilinin emrini mutasarrıftan dinleyen Binbaşı, çok içten bir öfkeye kapıldı.
+		 <br>
+		Milll bir öfkenin bütün içtenliğini taşıyan şu sözlerIe Vali Vekilini bombardıman etti :
+		- Bir Türk Binbaşısı olarak gidip te bir İngiliz yüzbaşısına tarziye veremem. Eğer bu emri bana bir asker sıfatiyle veriyorsanız şu dakikadan itibaren askerlikten dahi istifa ediyorum!
+		 <br>
+		Telin öbür ucuna doğru bu yiğitçe sözler bir şamar gibi uzaklaşırken Şevket bey, omuzlarındaki apoletleri sinirli ve güçlü parmaklariyle sökerek masanın üzerine fırlattı. Şevket bey, bu emre baş ka1dırınca Vali vekili, Sinop Jandarma Kumandanı Remzi beyi makina başına çağırdı; Mutasarrıf vekilliğini ve gidip İngilizlerden özür dilemesi emrini ona verdi. Remzi bey hiç duraksamadan bu emri benimsedi. Gidip Mazhar Tevfik beyin makamına "azametle" kuruldu. Sonra da Rus konsolosluğunda kuşku ve sabırsızlık içinde bekleyen yüzbaşı Solter ve arkadaşlarına tarziye verdi. Böylece, Sinop'taki kuvayı milliye ruhu da okkalıca bir tokat yemiş oldu.
+		 <br>
+		Solter, ertesi gün yeni Mutasarrıf Vekili Remzi beyi gelip makamında ziyaret etti. Birkaç gün sonra da maiyetini alıp Pontos çetelerini ve örgütlerini silahlandırma yeri olan Samsun'a yollandı.
+		 <br>
+		Mazhar Tevfik bey, yeni Mutasarrıf vekili Remzi beyin bir kahpeliğine uğrayarak yakalanıp İstanbul'a gönderilmek korkusuyle Sinop'tan hemen ayrılıp Sivas'a, Mustafa Kemal'e gitmeğe karar verdi. Sinop'un meşhur Çerkez beylerinden Çerkez Hasan bey ve atlıları, Mazhar Tevfik beyle ailesini aralarına alıp birkaç gün dinlenmesi ve yolculuğa hazırlanması için atla Sinop'a beş saat çeken Şamlıoğlu köyüne götürdüler. Ordan Sivas'a doğru yola çıkacaktı. Mustafa Kemal "başın daralınca çık gel!" dememiş miydi?
+		 <br>
+		Mazhar Tevfik bey, giderayak mektupçu Hüseyin Hilmi beye şu pusulayı gönderdi:
+		- Azizim! Kısmet olursa. yarın köye' gidiyorum. Bi zim maaşı lütfen alınız. Bir de hadisede nezarete ve vilayete yazdığım mufassal telgrafla ikinci günü, tekrar yazdığım telgrafın ikişer adet suretini kurşun kalemi ile olsun bana çıkarıp vermenizi rica ederim. Kalemde yazısı okunaklı iki efendi on dakika içinde yazabilirler.
+		 <br>
+		İngilizlerin avdet için emir almaları şayanı dikkattir. Ağır bastık demek oluyor Neyse Sinop'u kaybediyoruz. Şerefi milli yerine gelsin de ne olursa olsun. Sinop istediğinden ala mutasarrıf bulabilir. Halk namına Kastamonu vilayet makamına çekilen isyancı telgraf, Vali Vekili Osman Nuri beyi kızdırmış görünüyordu. Yeni Mutasarrıf Vekili Remzi beye halka bildiri1mek üzere çektiği telgrafta,
+		 <br>
+		- Blöf yapıyorsunuz! Diyerek korkutucu bir dil kullanıyordu.
+		 <br>
+		Belediye başkanı Rasim bey 12 Eylül 1919 günü Vali Vekiline şöyle bir telgraf püskürtmesi verdi:
+		- Burada son defa cereyan eden vakayii müessife dolayısiy1e arayı umumiyeye istinaden çektimiz telgrafnameler makamı vilayetçe blöf telakki edilmiş ve bir nevi tehditkar vaziyet gösterilmiştir. Ben, memleketin eşraf ve kadim hanedanındanım. Hiçbir vakit blöfçü yarandan değilim. Milletin vekaletini haiz olarak efkarı umumiyeyi makamatı aliyeye iblağ için O telgrafları çektik. Böyle blöfçülükle ithamım, vekaletini haiz olduğum milletim benim için mucibi şin ve ağır olduğundan bugünden itibaren makamı mutasarrıf1ye istifamı veriyorum.
+		 <br>
+		Şaşırtıcı olaylar her yanda hava fişekleri gibi patlıyordu. 18 Eylül 1919 günü Kastamonu'dan Vali Vekili Ferit imzası ile gelen bir telgraf orda işlerin yolunda gittiğini gösteriyordu. Bu telgrafi şaşırtıcı olduğu gibi sevindiriciydi de. Telgraf, özet olarak şunları yazıyordu:
+		 <br>
+		- Sivas kongresi, İstanbul hükümetiyle bütün ilişkilerin kesilmesine karar vermiştir. siz de bu karara göre davranınız ve milli gösteriler yapınız!
+		 <br>
+		Rasim bey 19 Eylül 1919 günü vilayete genç mutasarrıf Mazhar Tevfik beyin göstermiş olduğu milli yiğitlik dolayısı ile işinden uzaklaştırıldığını, halkın da çok sevdiği ve tuttuğu bu değerli mutasarrıfın yine eski görevine dönmesinin çok iyi ve yerinde olacağını bildiren bir telgraf çekti.
+		 <br>
+		Ali Fuat paşanın Kastamonu'ya gönderdiği topçu albayı Osman bey bu sırada hapisten kurtulmuş ve başın- dan geçen çok tehlikeli serüveni bir yana bırakmış olarak Kastamonu telgrafhanesinde bulunuyordu. Osman bey, Kuvayı Milliyenin Kastamonu'da işe el koyduğunu gösteren sevindirici ve şaşırtıcı telgrafında şöyle diyordu:
+		 <br>
+		- Mutasarrıf Mazhar Tevfik bey hakkında Vilayete olan telgrafınızı gördüm. Mütalaaları pek muvafıktır. Vilayetten emir verilmesinin temin edileceğini arzederim.
+		 <br>
+		19 Eylül 1919
+		 <br>
+		Hemen o akşam vilayetten Mazhar Tevfik beyin görevine dönmesi için emir geldi.
+		 <br>
+		Mektupçu Hüseyin Hilmi bey, gelen emri sevinçle alarak gece yarısı Şam1ıoğlu Köyüne doğru tırısla yola
+		çıktı. Çerkes köyüne bu güzel haberle varan Hüseyin Hilmi bey, mutasarrıfa zaferini bildirdiğinde o da genç yönetici gibi mutluydu.
+		 <br>
+		Ertesi sabah, genç mutasarrıf için yaşayışının en heyecanlı ve şerefli saatleri başlıyordu. Çerkes Hasan bey, topladığı silahlı, silahsız yüzlerce atlının başına geçirdiği Mazhar Tevfik beyi at oynatmaları, silah sesleri, neşeli haykırışlar ve gösteriler arasında Sinop'a dek yolcu etti. Şehir, bir anda el değiştirmiş, İstanbul hükümetinin dokunduğu yeri kirleten kara parmakları, bu güzel Karadeniz şehri üzerinden bir daha kirletmernek üzere çekilmişti.
+		 <br>
+		Mazhar Tevfik bey, sandalyesine bütün güveniyle 0turduktan sonra kocaman bir bildiri yayınladı ve bunda artık, Sivas Kongresi kararlarının ve Mustafa Kemal'in sözü geçen bir yurtta yaşamağa başladıklarını İstanbul hükümetinin Sinop ufuklarında ve Kastamonu'nun yeşil ağaç denizi üzerinde hüküm süremeyeceğini dosta-düşmana anlatmağa çalıştı.
+		 <br>
+		Sinop şehrinin kaderini böyle birdenbire değiştiren Kastamonu'daki değişikliğin nedeni neydi? Sinop hikayesinin baş halkası olan Kastamonunun da kocaman bir hikayesi vardır. Şimdi oraya varalım.
+		 <br>
+		</p>
+	  </div>
+    </article>
+	<section2> <center><br>Kaynak: Hasan İzzettin DİNAMO, Kutsal İsyan (Millî Kurtuluş Savaşı'nın Gerçek Hikâyesi - Sinop Şehrinin Başında Dönenler (Sayfa 225-244))</center>
+	<br></section2>
+</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+#headerResim{
+    width: 100%;
+    height: 230px;
+  	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+ul.cssMenu {
+  list-style-type: none;
+  background-color: #FFF5EE;
+  flex: auto;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: center;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ul.cssMenu li {
+  cursor: pointer;
+  font:300 20px  sans-serif bold;
+  color:#483D8B;
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  position: relative;
+  border-bottom: 1px solid #white;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+ul.cssMenu li ul {
+  display: none;
+  padding:0;
+  cursor: pointer;
+} 
+ul.cssMenu li:hover ul {
+  display: table;
+  margin-top: 15px;
+  min-width: 250px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+ul.cssMenu li:hover ul li {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+ul.cssMenu li:hover ul li:hover {
+  color:white;
+  cursor: pointer;
+  background-color:#FFF5EE;
+}
+ul.cssMenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul.cssMenu .dropdown-child {
+  display: none;
+  background-color: #FFF5EE;
+  min-width: 200px;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown-child a {
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown:hover .dropdown-child {
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main {
+    width:100%;
+  }
+}
+a {
+	font-style bold;
+	color: #CD5C5C;
+    text-decoration: none;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: #262626;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: justify;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+section {
+  display: flex;
+  font: sans-serif;
+}
+section 2{
+  display: flex;
+  text-align: center;
+  font: sans-serif;
+}
+article {
+  flex: 1 100px;
+}
+article:nth-of-type(3) {
+  flex: 1 100px;
+  display: flex;
+  flex-flow: column;
+}
+
+article:nth-of-type(3) div:first-child {
+  flex: 1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+    
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;" contenteditable="false">
+<div style="background-color:black;padding:15px;text-align:center;border-radius: .5em;padding: .5em;box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);">
+<img id="headerResim"  src="header/header.jpg" alt="">    
+  <h1 style="color:#FFF5EE">SİNOP</h1>
+</div>
+<div id="container">
+    <ul class="cssMenu">
+    <center>
+       <li> <div class="dropdown">Sinop Şehri
+        <ul>
+		<div class="dropdown-child">
+		  <li><a href="tarihi.html" target="_blank">Tarihi</a></li>
+		  <li><a href="yersekilleri.html" target="_blank">Yer Şekilleri</a></li>
+          <li><a href="antikcag.html" target="_blank">Antikçağ</a></li>
+		  <li><a href="yoremutfagi.html" target="_blank">Yöre Mutfağı</a></li>
+		  <li><a href="diyojen.html" target="_blank">Diyojen</a></li>
+          <li><a href="ayancik.html" target="_blank">Ayancık</a></li>  
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="sinop.html">Anasayfa</a></li>
+      <li><div class="dropdown">Fotoğraflar
+        <ul>
+		<div class="dropdown-child">
+          <li><a href="ayancik1.html" target="_blank">Ayancık</a></li>
+          <li><a href="sinop1.html" target="_blank">Sinop</a></li>
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+    </center>
+  </ul>
+  <section>
+      <article>
+      <p>Sinop Şehri, Anadolu 'nun kuzey yönde uç noktası olan İnce Burun 'a doğu yönde bağlanan Boztepe Burnu berzahında bir kale-şehir olarak kurulmuş ve tarih boyunca doğu yönde gelişmiştir. Tarih boyunca kale dışına pek taşmayan şehir bir liman kenti özelliği taşır. Berzahın kuzey doğusundaki dış liman fırtınalara açık olduğu ve denizcilik bakımından kullanışlı sayılmadığı halde, Antikçağ 'da daha çok bu limanın kullanıldığı bilinir. Zamanla kum dolan ve kullanılamaz hale gelen bu limanı berzanın güney-doğusundaki iç limana aynı dönemde bir kanal bağlardı. Bu kanal, Selçuklular döneminde kapatılmıştır.</p></p></article>
+      <article>
+      <p>Yarımadanın güney yönündeki içliman ise rüzgarlara kapalı konumuyla ve sakin deniziyle güney Karadeniz 'in en önemli limanıydı. Bu özellikleri yüzünden "Akdeniz" ismini almıştır. Tarih boyunca işlek bir liman yaşantısı ve tersane faaliyeti bu limanda gerçekleşmiştir. XIX. Yüzyıla kadar tamamen ayakta duran surlardan ise günümüze büyük bir kısmı kalmıştır ve yıkıntılarından rekonstrüksiyonu yapılabilir. Şehir, doğu yönünde Boztepe Burnuna doğru daha yoğun olarak gelişmiştir. Aynı burundaki Hıdırlık tepesinin, 187 metreye kadar yükseltisi bulunmakta ve nihayet deniz yönünde dik yarlar ile kuşatılmaktadır. Bu durumda, şehrin deniz yönünden ve berzahtan zaptedilmesi imkansız hale gelmektedir.</p>
+      </article>
+      <article>
+      <p>Antik çağdan beri parlak ve yoğun bir ticari ve kültürel yaşantıya sahip olan Sinop, bu niteliğini Bizans, Selçuklu, Candaroğlu ve Osmanlı yönetimlerinde de sürdürmüş, ayrıca kale ve tersanesi ile bölgenin en önemli askeri üslerinden biri olmuştur. Bu durumunu Sinop Baskını'ndan sonra kaybetmeye başlayan kentteki gelişim süreci, güneydoğu ve batı yönündeki kentleşme ile surların dışına taşmıştır. Ulaşım şebekesi olarak Antikçağ'dan beri geometrik yapısını koruyan Sinop'un ulaşım omurgasını, Boyabat yolu ile bu yolun şehir içindeki devamı olan Sakarya, Cumhuriyet ve Fatih caddeleri oluşturur. Bu eksendeki en önemli dikey bağlantı, Valilik ve Belediye önünden geçen Gazi Caddesidir.</p>
+      </article>
+   </section>
+   <section2> <center>  Kaynak: <a href="http://www.sinop.gov.tr/tarih">http://www.sinop.gov.tr/tarih</a></center> </section2>
+</div>
+</body>
+</html>

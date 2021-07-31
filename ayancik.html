@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+.rsm{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.rsm2{
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#headerResim{
+    width: 100%;
+    height: 230px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+ul.cssMenu {
+  list-style-type: none;
+  background-color: #FFF5EE;
+  flex: auto;
+  color: #fff;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: center;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+ul.cssMenu li {
+  cursor: pointer;
+  font:300 20px  sans-serif bold;
+  color:#483D8B;
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  position: relative;
+  border-bottom: 1px solid #white;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+ul.cssMenu li ul {
+  display: none;
+  padding:0;
+  cursor: pointer;
+} 
+
+ul.cssMenu li:hover ul {
+  display: table;
+  margin-top: 15px;
+  min-width: 250px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+
+ul.cssMenu li:hover ul li:hover {
+  color:white;
+  cursor: pointer;
+  background-color: #FFF5EE;
+}
+ul.cssMenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul.cssMenu .dropdown-child {
+  display: none;
+  background-color: #FFF5EE;
+  min-width: 200px;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown-child a {
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+ul.cssMenu .dropdown:hover .dropdown-child {
+  display: block;
+  border-radius: .5em;
+  padding: .5em;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main {
+    width:100%;
+  }
+}
+a {
+	font-style bold;
+	color: #CD5C5C;
+    text-decoration: none;
+}
+article {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  border-radius: .5em;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+}
+.content {
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+  background-color: #262626;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  font: sans-serif;
+  border-radius: .5em;
+  padding: .5em;
+  text-align: justify;
+}
+section 2{
+  display: flex;
+  text-align: center;
+  font: sans-serif;
+}
+</style>
+ 
+<body style="font-family:Verdana;color:#aaaaaa;" contenteditable="false">
+<div style="background-color:black;padding:15px;text-align:center;border-radius: .5em;padding: .5em;box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);">
+<img id="headerResim"  src="header/header.jpg" alt="">    
+  <h1 style="color:#FFF5EE">AYANCIK</h1>
+</div>
+<div id="container">
+    <ul class="cssMenu">
+    <center>
+       <li> <div class="dropdown">Sinop Şehri
+        <ul>
+		<div class="dropdown-child">
+		  <li><a href="tarihi.html" target="_blank">Tarihi</a></li>
+		  <li><a href="yersekilleri.html" target="_blank">Yer Şekilleri</a></li>
+          <li><a href="antikcag.html" target="_blank">Antikçağ</a></li>
+		  <li><a href="yoremutfagi.html" target="_blank">Yöre Mutfağı</a></li>
+		  <li><a href="diyojen.html" target="_blank">Diyojen</a></li>
+          <li><a href="ayancik.html" target="_blank">Ayancık</a></li>  
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="sinop.html">Anasayfa</a></li>
+      <li><div class="dropdown">Fotoğraflar
+        <ul>
+		<div class="dropdown-child">
+          <li><a href="ayancik1.html" target="_blank">Ayancık</a></li>
+          <li><a href="sinop1.html" target="_blank">Sinop</a></li>
+		</div>
+        </ul>
+		</div>
+      </li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+    </center>
+  </ul> 
+    <article>
+      <div class="content">
+	    <h2><center>Ayancık</center></h2>
+        <p>
+		<br>
+		Ayancık, Sinop ilinin bir ilçesidir. 12500 nüfusludur ve Sinop'un ikinci büyük ilçesidir. Ayancık Kilisesi ilçedeki tarihi bir merkezdir. İlçenin birkaç kilometre dışında bulunan Akgöl, ilçenin en önemli güzelliklerinden biridir.
+		   <br>
+		Suni limanların yapılmasıyla balıkçılık da gelişmiştir. Yer şekilleri ve arazi yapısı tarım için uygun olmasa da ilçe ekonomisinde tarımın önemli yeri vardır. Keten sanayisi de son yıllarda önemli aşama kaydetmiştir.
+		   <br>
+		İlçe, Ayancık Tepesi'nin eteğinde, Ayancık Çayı'nın denize döküldüğü yerde, açık denize bakar şekilde kurulmuştur. Liman şehridir ve liman açık denize baktığı için fırtınalara açıktır. İl merkezine 54 km uzaklıktadır. Yenikonak tek bucağıdır. Türkeli ise 1957 yılında ilçe olmuştur. İlçe yüzölçümü 876 kilometrekaredir. Komşu ilçeleri Türkeli, Erfelek ve Boyabat'tır.
+		   <br>
+		</p>
+		<center><img src="ayancik/1.png" alt="" class="rsm2">
+		<img src="ayancik/2.png" alt="" class="rsm2"></center>
+	  </div>
+    </article>
+	<section2> <center><br>Kaynak: <a href="https://tr.wikipedia.org/wiki/Ayanc%C4%B1k">https://tr.wikipedia.org/wiki/Ayanc%C4%B1k</a></center></section2>
+	<br>
+	<article>
+      <div class="content">
+	    <h2><center>Coğrafi Yapısı</center></h2>
+        <p>
+		<br>
+		Batı Karadeniz coğrafi bölgesinde yer alan Ayancık İlçesi; Kuzeyde Karadeniz, Güneyde Sinop İli Boyabat İlçesi ve Kastamonu İli Taşköprü İlçeleri, Batıda Sinop İli Türkeli İlçesi ve Doğuda ise Sinop İli Erfelek İlçesi ile çevrilidir. İlçemizin İl'e  olan bağlantısı 55 Km.' lik sahil karayolu ile sağlanır.
+		İlçenin toplam arazisi 86.600 (Ha) olup, Yüzölçümü 866 km2 ve Rakım 10 m.' dir. İlçe merkezi 202 metre yükseklikteki "Maltepe" ve "Ayantepe" ile deniz arasında Ayancık Çayı Vadisinde kurulmuştur. İlçe adını Ayan tepesinden almıştır.
+		<br>
+		İlçemiz sınırlı ve toplam 86.600 (Ha) büyüklükte tarım arazisine sahiptir. Ancak, % 71.86 gibi büyük bir kısmı tarım dışı arazidir. Tarım arazisi olarak tanımladığımız arazinin sadece % 28.14 lük kısmından ibaret olan arazilerin de, büyük bir kısmını eğimli araziler teşkil etmektedir. Çok az bir kısım arazi ise vadi yataklarındaki küçük düzlüklerden ibarettir.
+		<br>
+		Buna karşılık, toprak yapısı itibari ile killi ve kalkerli bir karaktere sahip bulunduğundan orman ürünlerinin yetişmesine son derece elverişlidir. Bölgede 59.058 (Ha) ağaçlı, 2.883 (Ha) ağaçsız olmak üzere toplam 61.941 (Ha) ormanlık saha bulunmaktadır. Çok zengin çam, köknar, meşe, gürgen, kayın, dişbudak, karaağaç, kavak türleri ile özellikle Çangal Ormanları "ağaç denizi" olarak nitelendirilir.
+		Yeşilin her tonunu bu ormanlarda görmek mümkündür. Kıyı şeridindeki çeşitli ağaç türlerinden oluşan bitki örtüsü içine yer yer Akdeniz bitkilerine de rastlanır. Güneye doğru inildikçe iklim kuraklaşmaya başlar ve bozkır bitkileri görülür.
+		Akgöl yapay bir orman gölüdür. Bunun dışında doğal ya da yapay gölü bulunmamaktadır.
+		<br>
+		Uzunluğu 90 Km. civarında olan ve çok sayıda küçük derenin birleşmesinden oluşan Ayancık Çayı, geniş bir alanın sularını toplayıp tek kol halinde İlçe merkezinden denize dökülür.
+		Bölgenin en yüksek dağlarına sahip bulunan Ayancık' ın, Kuzey Anadolu sıra dağları üzerindeki Zindan 1.750 ve Çangal 1.605 metre yükseklikteki dağlarıdır
+		Ayancık İlçesi deprem bölgesi sınıflandırılmasında 4. bölgede bulunulmaktadır.
+		<br>
+		Ayancık 55 km.' lik sahil yolu ile Sinop İli' ne bağlanmıştır. İç kesimlerle olan bağlantısı Çangal yolu üzerinden Kastamonu yolu ile sağlanmaktadır. Bazı İl Merkezleri ile İlçelere olan uzaklıkları: Samsun: 218 km., Kastamonu: 140 km.,  Ankara: 435 km., İstanbul: 630 km., Türkeli: 35 km., Boyabat: 72 km., Gerze: 94 km., Erfelek 46 km.' dir. İlçeler arası ulaşım minibüslerle sağlanmaktadır.
+		<br>  
+		</p>
+		<center><img src="ayancik/3.jpg" alt="" class="rsm"></center>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Ayancık'ta İklim</center></h2>
+        <p>
+		<br>
+		Ayancık yöresinde tipik Karadeniz iklimi egemendir. Kışları serin ve yağışlı, yazları kurak ve nemlidir.Yıllık ortalama sıcaklık 14.0 C derece' dir. En yüksek ortalama Temmuz ayında olup, 22.2 C, en düşük ortalama sıcaklık ise Ocak-Şubat aylarında oluşan 6.6 C dir.  Deniz suyu sıcaklığı Haziran ve Temmuz ayları itibarıyla ortalama 23-24 derecedir. Yıllık ortalama nisbi nem oranı % 72' dir. Nem oranı en yüksek değerine % 76 ile Mart, en düşük değerine ise %70 ile Haziran, Temmuz ve Aralık aylarında ulaşmaktadır.
+		<br>
+		Yıllık ortalama yağış 676 kg/m²' dir. En çok yağış 139,2 mm ile Aralık, en az yağış 34,9 mm ile Temmuz ayında görülmektedir. Yüksek kesimleri kış sezonu süresince genelde karla kaplı geçer. Yılda fırtınalı gün sayısı ortalama 9,2' dir. En çok esen rüzgâr güney, en kuvvetli rüzgârlar ise kuzey ve kuzeybatı rüzgârlarıdır.
+		<br>
+		İlçenin tarıma elverişli arazilerinde sebze meyve alanları potansiyeli oldukça yüksektir. Üretim değeri bakımından sofralık çekirdekli üzüm, fındık, kivi, kestane, elma ve ceviz en çok üretilen meyve olup; Sinop ve bölgede önemli bir yere sahiptir. Ayancık tarla bitkileri üretimi bakımından incelendiğinde en çok tahıl grubunun ekildiği bu grupta da buğday ve mısırın en çok üretim yapıldığı görülmektedir. Sebze üretiminde de fasulye (taze) ve lahana üretimin fazla olduğu görülmektedir.                 
+		<br>
+		İklim: Ayancık yöresinde tipik Karadeniz iklimi egemendir. Kışları serin ve yağışlı, yazları kurak ve nemlidir.
+		<br>
+		Sıcaklık : Yıllık ortalama sıcaklık 14.0 C derece' dir. En yüksek ortalama Temmuz ayında olup, 22.2 C, en düşük ortalama sıcaklık ise Ocak-Şubat aylarında oluşan 6.6 C dir.  Deniz suyu sıcaklığı Haziran ve Temmuz ayları itibariyle ortalama 23-24 derecedir.
+		<br>
+		Nem Oranı : Yıllık ortalama nisbi nem oranı % 72' dir. Nem oranı en yüksek değerine % 76 ile Mart, en düşük değerine ise %70 ile Haziran, Temmuz ve Aralık aylarında ulaşmaktadır.
+		<br>
+		Yağış : Yıllık ortalama yağış 676 kg/m2' dir. En çok yağış 139,2 mm ile Aralık, en az yağış 34,9 mm ile Temmuz ayında görülmektedir. Yüksek kesimleri kış sezonu süresince genelde karla kaplı geçer.
+		<br>
+		Rüzgar : Yılda fırtınalı gün sayısı ortalama 9,2' dir. En çok esen rüzgar güney, en kuvvetli rüzgarlar ise kuzey ve kuzeybatı rüzgarlarıdır.
+		<br>
+		Bitki Örtüsü : Yörenin doğal bitki örtüsünü ormanlar oluşturmaktadır. Bitki örtüsü çok zengin ve yoğun olup, yükselti kuşaklarına göre farklılaşmaktadır. Kıyı kesiminde yayvan yapraklı orman dokusu, makilik ve fundalıklar ile kültür bitkileri yaygındır. Kıyıdan itibaren yükseldikçe iğne yapraklı ağaç ve bitki türleri yoğunluk kazanmaktadır. Ormanlarda çam, köknar, meşe, gürgen, kayın, dişbudak, karaağaç, ıhlamur, çınar, kestane, kavak çeşitli maki ve çalı türleri yer almaktadır.
+		<br>
+		Tarım Ürünleri: İlçemizin toplam arazisi 86.500 hektar olup bu arazinin 24.350 hektarı tarıma elverişli arazi olarak değerlendirilebilir. Sebze meyve alanları potansiyeli oldukça yüksektir. Üretim değeri bakımından sofralık çekirdekli üzüm, fındık, kivi, kestane, elma ve ceviz en çok üretilen meyve olup; Sinop ve bölgede önemli bir yere sahiptir. Ayancık tarla bitkileri üretimi bakımından incelendiğinde en çok tahıl grubunun ekildiği bu grupta da buğday ve mısırın en çok üretim yapıldığı görülmektedir. Sebze üretiminde de fasulye (taze) ve lahana üretimin fazla olduğu görülmektedir.
+		<br>
+		</p>
+	  </div>
+    </article>
+	<article>
+      <div class="content">
+	    <h2><center>Ayancık Tarihi</center></h2>
+        <p>
+		<br>
+		Ayandon, şimdiki Türkeli ilçesine bağlı Hamamlı köyünün eski adıdır. Tarihi kayıtlarda bir balıkçı köyü olduğu yazılıdır. O zamanlar bir kıyı köyü olan yer, daha sonraları gelişmiş, önce nahiye, ardından da ilçe merkezi olmuştur.
+		<br>
+		Ayancık İlçesinin tarihi ilk çağlara kadar uzanır. Ayancık ve çevresinde yaşayan ilk kavimler Paflogonyalılar, Amazonlar, Akalar ve Dorlardır. İlk çağda Paflogonya Batı Karadeniz bölümünde Biritanya, Pontusya ve Galatya arasında kalan yerdir. Pafogonyalılar bu bölgede bilinen ilk yerli halktır. M.Ö. 1200 yıllarına kadar Etiler'e bağlı, onların korumaları altında yaşamışlardır.
+		<br>
+		Ayancık ve çevresi 11. yüzyılın sonlarında ilk kez Danışmentoğullarının egemenliğine girmiştir. Bölge 1204 te Anadolu Selçuklularının, 1259 da Pervaneoğullarının, 1292 de Candaroğullarının eline geçmiştir. 1460 yılında Fatih Sultan Mehmet Trabzon seferine giderken Sinop ve çevresini Osmanlı Devletine bağlamıştır. Tanzimat Devrine kadar Ayancık ve Çevresi Kastamonu' ya bağlı dört kadılıktan birinin yönetimi alanı içinde kalmıştır. Tanzimat ile başlayan, daha sonra devam eden yenileşme hareketleri sırasında Ayancık ve çevresinde (Sancak-Kaza) İlçe yönetimi kurulması düşünülmüş, İlçe merkezi olarak da Ayandon (Türkeli İlçesine bağlı Ayazköyü) kabul edilmiştir.
+		<br>
+		Ayancık ve Ayancık Çayının doğusundaki köylere egemen olan Şükrüoğulları 1860 yıllarda Çaylıoğulları ile anlaşarak İlçe merkezinin Ayancık' a taşınmasını kendi çıkarları ile uygun görmüşler ve 1860' lı yıllarda bir değirmen ve birkaç önemsiz yapıdan oluşmuş küçük bir yerleşim yeri olan Ayancık, zaman içinde Kaymakamlık ve Askerlik Şubesi gibi resmi kurumların ve bir çok konut ve ticaret yapılarının kurulması ile hızla gelişmiştir. Alman ve Belçika sermayeli kereste fabrikasının 1929 yılında işletilmeye başlanması, bölge ekonomisi ve sosyal hayatında dönüm noktası olmuştur.
+		<br>
+		Ayancık, Cumhuriyetin ilanına kadar Kastamonu İline bağlı iken, Cumhuriyetin ilanından sonra yapılan idari düzenlemede Sinop İline bağlı İlçe olmuştur
+		<br>
+		Ayancık Milli Mücadele yıllarında da adını kahramanlıkla duyurmuştur. Her 89 şehitten birinin Ayancıklı olduğu düşünülürse, Ermeni harekatından Büyük Taarruza kadar uzanan 4 yıllık muharebenin en ağır kaybının Ayancık’ta olduğu görülür. En çok şehit veren yerler arasında 404 şehidi ile Ayancık, Antalya
+		(716), Kastamonu (484) ve Konya’nın (459) ardından 4. sıradadır. Nüfus oranı dikkate alınırsa Ayancık en çok şehit veren yurt köşesidir.  
+		<br>
+		Ayancık bu tarihten sonra sürekli gelişme göstermiştir. 1860'lı yıllarda yapılan eski Hükümet Konağı binası 1952 de yanmış, yerine bugünkü mevcut bina yapılmıştır. 
+		</p>
+		<center><img src="ayancik/4.jpg" alt="" class="rsm2">
+		<img src="ayancik/5.jpg" alt="" class="rsm2">
+		<img src="ayancik/6.jpg" alt="" class="rsm2"></center>
+	  </div>
+    </article>
+	<section2> <center><br>Kaynak: <a href="http://www.ayancik.gov.tr/ilcemiz">http://www.ayancik.gov.tr/ilcemiz</a></center></section2>
+	<br>
+	<article>
+      <div class="content">
+	    <h2><center>Ayancık Kereste Fabrikası</center></h2>
+        <p>
+		<br>
+		Fabrika Zindan ve Çangal ormanları Tarım Bakanlığı tarafından 10 Şubat 1926 yapılan 50 yıllık sözleşme ile Türkiye Kibrit Tekeli Türk Anonim Şirketi'ne verilmiştir. Bu sözleşme daha sonra kısa adı Zingal olan Zindan ve Çangal Ormanları Türk Anonim Şirketi'ne devredilmiştir. Bu devir işleminin ardından Ayancık Kereste Fabrikası Belçikalı iş adamı Bay Filipar tarafından kurulmuştur.
+		<br>
+		Zingal adı Zindan ormanlarının ilk, Çangal ormanlarının ise son hecesinden oluşmaktadır. Kurulduğu yıllarda Avrupa'daki en büyük kereste fabrikalarından biriydi.
+		<br>
+		10 Şubat 1926 tarihli sözleşmeye uymayıp ormanları aşırı kullanması, kesilen ormanların yerine ağaçlandırma çalışmalarını ihmal etmesi ve günde üç vardiya şeklinde normal üretimin 3-4 katı üretim yapacak şekilde fabrikanın çalıştırılamıyla fabrikanın kapanma süreci başladı. Şirketin yaptığı bu umursuzca kesim Ayancık ormanlarını bozmuş ve azaltmaya başlatmıştır. Bu nedenle Bakanlar Kurulu 1926 yılında yapılan sözleşmeyi feshederek fabrikanın işletmesine el konulmuştur. Zingal şirketi, el koyma ve satın alma kararına karşı Danıştay'da dava açmış ve itirazlar sonrası Adnan Menderes hükümeti bu dönemde Zingal şirketi ile anlaşarak 27 Ekim 1954'te 3.618.587,25 lira karşılığında fabrika ve diğer tesisleri satın almıştır.
+		 <br>
+		Zingal ile yapılan anlaşmaların sonucunda şirkete bağlı ormanlar, Sinop Revir Amirliği'ne bağlı Ayancık Bölge Şefliği'ne geçmiştir. Atılan bu adımdan sonra Ayancık İşletme Müdürlüğü (1945) resmen kurulmuştur. Zingal şirketinin ormanlarımızı gelişigüzel kullanması sonucunda fabrika tesislerinin satın alınması işleminde geç kalınmış olsa bile bütün ormanlara devlet tarafından el konulduğundan fabrika  27 Nisan 1945'te Ayancık Devlet İşletmesi olarak resmen faaliyete geçmiştir. Fabrika 1945 yılından 1967 yılına kadar 12 bölge halinde (Akgöl, Çangal, Çangal Örnek, Ciple, Göldağ, İnaltı, Kumluk, Kepez, Kazköy, Handere merkez, Yemişli ve Zindan) faaliyette bulunarak üretim yapmıştır.
+		</p>
+	  </div>
+    </article>
+</div>
+</body>
+</html>
+
